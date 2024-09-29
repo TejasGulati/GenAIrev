@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../utils/api';
-import { Loader2, Type, Leaf, TrendingUp, BarChart2, FileText, Plus, Minus } from 'lucide-react';
+import { Loader2, Type, Leaf, TrendingUp, BarChart2, FileText, Plus, Minus, AlertTriangle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const styles = {
@@ -165,26 +165,31 @@ const RenderValue = ({ value }) => {
 
 const Section = ({ title, data }) => {
   if (!data) return null;
+
   return (
     <motion.div
-      style={{...styles.card, marginBottom: '2rem'}}
+      className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <h3 style={{ fontSize: '1.75rem', fontWeight: '700', color: '#FFFFFF', marginBottom: '1.5rem' }}>
+      <h3 className="text-2xl font-bold text-white mb-6">
         {formatKey(title)}
       </h3>
-      <div style={styles.flexContainer}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {Object.entries(data).map(([key, val]) => (
-          <motion.div key={key} style={{ ...styles.card, ...styles.flexItem, margin: 0 }}
+          <motion.div
+            key={key}
+            className="bg-gray-700 p-4 rounded-lg flex flex-col"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
           >
-            <h4 style={{ fontSize: '1.2rem', fontWeight: '600', color: '#FFFFFF', marginBottom: '0.75rem' }}>
+            <h4 className="text-lg font-semibold text-white mb-3">
               {formatKey(key)}
             </h4>
-            <div style={{ color: '#F3F4F6' }}><RenderValue value={val} /></div>
+            <div className="text-gray-200 flex-grow">
+              <RenderValue value={val} />
+            </div>
           </motion.div>
         ))}
       </div>
@@ -226,6 +231,32 @@ const FeatureCard = ({ title, description, icon: Icon }) => {
     </motion.div>
   );
 };
+
+const ErrorDisplay = ({ error }) => (
+  <motion.div 
+    style={{
+      ...styles.error,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '1rem',
+      backgroundColor: 'rgba(220, 38, 38, 0.2)',
+      color: '#FCA5A5',
+      borderRadius: '0.5rem',
+      marginBottom: '2rem',
+      marginTop: '2rem',
+      marginLeft:'275px',
+      marginRight:'275px',
+    }}
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    exit={{ opacity: 0, y: -20 }}
+    transition={{ duration: 0.5 }}
+  >
+    <AlertTriangle style={{ marginRight: '0.75rem' }} size={24} />
+    <span>{error}</span>
+  </motion.div>
+);
 
 export default function Sustainability() {
   const [companyName, setCompanyName] = useState('');
@@ -297,32 +328,53 @@ export default function Sustainability() {
         };
         payload = { custom_data: formattedCustomData };
       } else {
+        if (!companyName.trim()) {
+          throw new Error('Please enter a company name.');
+        }
         payload = { company_name: companyName };
       }
       
-      console.log('Sending payload:', JSON.stringify(payload, null, 2));
-      
       const response = await api.post('/api/sustainability-report/', payload);
       
-      console.log('Received response:', response);
-  
       if (!response.data) {
-        throw new Error('Incomplete data received from the server');
+        throw new Error('No data received from the server. Please try again.');
+      }
+      if (typeof response.data !== 'object' || !response.data.report || !response.data.ai_insights) {
+        throw new Error('Invalid data format received from the server. Please try again.');
       }
       const cleanedData = cleanData(response.data);
       setGeneratedData(cleanedData);
     } catch (error) {
       console.error('Error generating report:', error);
       if (error.response) {
-        console.error('Error response data:', error.response.data);
-        console.error('Error response status:', error.response.status);
-        console.error('Error response headers:', error.response.headers);
-        setError(`Server error: ${JSON.stringify(error.response.data)}`);
+        // Handle different HTTP error status codes
+        switch (error.response.status) {
+          case 400:
+            setError('Invalid request. Please check your input and try again.');
+            break;
+          case 401:
+            setError('Authentication failed. Please log in and try again.');
+            break;
+          case 403:
+            setError('You do not have permission to access this resource.');
+            break;
+          case 404:
+            setError('The requested resource was not found. Please check your input and try again.');
+            break;
+          case 429:
+            setError('Too many requests. Please wait a moment and try again.');
+            break;
+          case 500:
+            setError('Internal server error. Please try again later.');
+            break;
+          default:
+            setError(`An error occurred (Status ${error.response.status}). Please try again.`);
+        }
       } else if (error.request) {
-        console.error('Error request:', error.request);
-        setError('No response received from server. Please try again.');
+        setError('No response received from server. Please check your internet connection and try again.');
+      } else if (error instanceof Error) {
+        setError(error.message);
       } else {
-        console.error('Error message:', error.message);
         setError('An unexpected error occurred. Please try again.');
       }
     } finally {
@@ -334,7 +386,7 @@ export default function Sustainability() {
     const { name, value } = e.target;
     setCustomData(prevData => {
       let newValue = value;
-      if (['year', 'ai_adoption_percentage', 'esg_score', 'innovation_index', 'sustainable_growth_index', 'revenue_growth', 'cost_reduction', 'employee_satisfaction', 'market_share_change'].includes(name)) {
+      if (['year', 'ai_adoption_percentage', 'esg_score', 'innovation_index', 'sustainable_growth_index','revenue_growth', 'cost_reduction', 'employee_satisfaction', 'market_share_change'].includes(name)) {
         newValue = value === '' ? '' : parseFloat(value);
         
         if (['ai_adoption_percentage', 'esg_score', 'innovation_index', 'employee_satisfaction'].includes(name)) {
@@ -364,12 +416,6 @@ export default function Sustainability() {
   const toggleCustomInput = () => {
     setIsCustomInput(!isCustomInput);
   };
-
-  const ErrorDisplay = ({ message }) => (
-    <div style={styles.error}>
-      {message}
-    </div>
-  );
 
   const features = [
     {
@@ -545,16 +591,7 @@ export default function Sustainability() {
         </motion.form>
         
         <AnimatePresence>
-          {error && (
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5 }}
-            >
-              <ErrorDisplay message={error} />
-            </motion.div>
-          )}
+          {error && <ErrorDisplay error={error} />}
 
           {loading && (
             <motion.div 
