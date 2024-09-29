@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, User, LogOut, Cpu, LineChart, BookOpen, Zap, BarChart, Image, FileText } from 'lucide-react';
+import { Menu, X, ChevronDown, User, LogOut, Cpu, LineChart, BookOpen, Zap, BarChart, Image, FileText, Database } from 'lucide-react';
 
 function Navbar() {
   const { isAuthenticated, logout } = useAuth();
@@ -107,6 +107,7 @@ function Navbar() {
                             <DropdownLink to="/predict" label="Prediction" icon={<Zap className="w-4 h-4 mr-2" />} />
                             <DropdownLink to="/generate-text" label="Generate Text" icon={<FileText className="w-4 h-4 mr-2" />} />
                             <DropdownLink to="/generate-image" label="Generate Image" icon={<Image className="w-4 h-4 mr-2" />} />
+                            <DropdownLink to="/sample-data" label="Sample Data" icon={<Database className="w-4 h-4 mr-2" />} />
                           </div>
                         </motion.div>
                       )}
@@ -169,6 +170,7 @@ function Navbar() {
                   <MobileNavLink to="/predict" label="Prediction" icon={<Zap className="w-4 h-4 mr-2" />} onClick={() => setIsMenuOpen(false)} />
                   <MobileNavLink to="/generate-text" label="Generate Text" icon={<FileText className="w-4 h-4 mr-2" />} onClick={() => setIsMenuOpen(false)} />
                   <MobileNavLink to="/generate-image" label="Generate Image" icon={<Image className="w-4 h-4 mr-2" />} onClick={() => setIsMenuOpen(false)} />
+                  <MobileNavLink to="/sample-data" label="Sample Data" icon={<Database className="w-4 h-4 mr-2" />} onClick={() => setIsMenuOpen(false)} />
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}

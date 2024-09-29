@@ -550,3 +550,43 @@ class ImageGenerationView(AIEnhancedView):
         except Exception as e:
             logger.error(f"Error generating AI description: {str(e)}")
             return None
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+import pandas as pd
+import os
+from django.conf import settings
+
+class SampleDataView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        try:
+            # Define the CSV file paths and their corresponding names
+            data_dir = '/Users/tejasgulati/Desktop/EcoPulse/backend/data'
+            csv_files = [
+                ('ai_esg_alignment', os.path.join(data_dir, 'ai_esg_alignment.csv')),
+                ('ai_impact_on_traditional_industries', os.path.join(data_dir, 'ai_impact_on_traditional_industries.csv')),
+                ('generative_ai_business_models', os.path.join(data_dir, 'generative_ai_business_models.csv'))
+            ]
+
+            sample_data = {}
+
+            for file_name, file_path in csv_files:
+                # Read the CSV file
+                df = pd.read_csv(file_path)
+                
+                # Sample 5 random entries
+                sample = df.sample(n=10, random_state=42).to_dict(orient='records')
+                
+                # Add to the sample_data dictionary using the file name
+                sample_data[f'{file_name}_sample'] = sample
+
+            return Response(sample_data, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            return Response(
+                {"error": f"An error occurred: {str(e)}"},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )

@@ -5,7 +5,8 @@ from .views import (
     BusinessModelView,
     PredictionView,
     TextGenerationView,
-    ImageGenerationView
+    ImageGenerationView,
+    SampleDataView,
 )
 
 urlpatterns = [
@@ -15,4 +16,5 @@ urlpatterns = [
     path('predict/', PredictionView.as_view(), name='predict'),
     path('generate-text/', TextGenerationView.as_view(), name='generate_text'),
     path('generate-image/', ImageGenerationView.as_view(), name='generate_image'),
+    path('sample-data/', SampleDataView.as_view(), name='sample-data'),
 ]

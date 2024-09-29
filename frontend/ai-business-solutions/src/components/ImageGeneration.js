@@ -191,7 +191,6 @@ const FeatureCard = ({ title, description, icon: Icon }) => {
     </motion.div>
   );
 };
-
 const ErrorDisplay = ({ error }) => (
   <motion.div 
     style={{
@@ -199,14 +198,17 @@ const ErrorDisplay = ({ error }) => (
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: '1rem',
+      padding: '0.75rem 1.5rem',
       backgroundColor: 'rgba(220, 38, 38, 0.2)',
       color: '#FCA5A5',
       borderRadius: '0.5rem',
       marginBottom: '2rem',
       marginTop: '2rem',
-      marginLeft:'275px',
-      marginRight:'275px',
+      maxWidth: '700px',
+      margin: '2rem auto',
+      fontSize: '1rem',
+      fontWeight: '600',
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     }}
     initial={{ opacity: 0, y: -20 }}
     animate={{ opacity: 1, y: 0 }}

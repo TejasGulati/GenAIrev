@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../utils/api';
-import { Loader2, Type, Briefcase, TrendingUp, BarChart2, FileText, Plus, Minus } from 'lucide-react';
+import { Loader2, Type, Briefcase, TrendingUp, BarChart2, FileText, Plus, Minus,AlertTriangle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const styles = {
@@ -346,18 +346,35 @@ export default function BusinessModel() {
   const toggleCustomInput = () => {
     setIsCustomInput(!isCustomInput);
   };
-
-  const ErrorDisplay = ({ message }) => (
-    <div style={{
-      backgroundColor: 'rgba(220, 38, 38, 0.1)',
-      color: '#FCA5A5',
-      padding: '1rem',
-      borderRadius: '0.375rem',
-      marginBottom: '2rem'
-    }}>
-      {message}
-    </div>
+  const ErrorDisplay = ({ error }) => (
+    <motion.div 
+      style={{
+        ...styles.error,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '0.75rem 1.5rem',
+        backgroundColor: 'rgba(220, 38, 38, 0.2)',
+        color: '#FCA5A5',
+        borderRadius: '0.5rem',
+        marginBottom: '2rem',
+        marginTop: '2rem',
+        maxWidth: '700px',
+        margin: '2rem auto',
+        fontSize: '1rem',
+        fontWeight: '600',
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      }}
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+    >
+      <AlertTriangle style={{ marginRight: '0.75rem' }} size={24} />
+      <span>{error}</span>
+    </motion.div>
   );
+  
 
   const features = [
     {

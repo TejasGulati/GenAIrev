@@ -12,6 +12,7 @@ import BusinessModel from './components/BusinessModel';
 import Prediction from './components/Prediction';
 import TextGeneration from './components/TextGeneration';
 import ImageGeneration from './components/ImageGeneration';
+import SampleData from './components/SampleData';
 import PrivateRoute from './components/PrivateRoute';
 
 function App() {
@@ -77,6 +78,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <ImageGeneration />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path="/sample-data"
+              element={
+                <PrivateRoute>
+                  <SampleData />
                 </PrivateRoute>
               }
             />
