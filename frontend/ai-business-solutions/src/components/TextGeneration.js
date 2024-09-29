@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../utils/api';
-import { Loader2, Type, Sliders, BookOpen, Zap, Target } from 'lucide-react';
+import { Loader2, Type, Sliders, BookOpen, Zap, Target, AlertTriangle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const styles = {
@@ -9,26 +9,28 @@ const styles = {
     alignItems: 'center',
     padding: '0.75rem 1.5rem',
     fontSize: '1rem',
-    fontWeight: '500',
-    borderRadius: '0.375rem',
+    fontWeight: '600',
+    borderRadius: '0.5rem',
     color: 'white',
     backgroundColor: '#10B981',
     transition: 'all 0.3s',
     border: 'none',
     cursor: 'pointer',
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
   },
   card: {
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
     backdropFilter: 'blur(10px)',
-    borderRadius: '0.75rem',
+    borderRadius: '1rem',
     padding: '1.5rem',
-    border: '1px solid rgba(255, 255, 255, 0.2)',
+    border: '1px solid rgba(255, 255, 255, 0.4)',
     transition: 'all 0.3s',
     marginBottom: '1.5rem',
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
   },
   container: {
     minHeight: '100vh',
-    background: 'linear-gradient(to bottom right, #065F46, #0F766E, #1E40AF)',
+    background: 'linear-gradient(135deg, #033225, #0A4F4C, #15296E)',
     color: 'white',
     padding: '4rem 1rem',
     position: 'relative',
@@ -39,10 +41,12 @@ const styles = {
     margin: '0 auto',
   },
   title: {
-    fontSize: 'clamp(2rem, 5vw, 4rem)',
+    fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
     fontWeight: '800',
     marginBottom: '2rem',
     textAlign: 'center',
+    color: '#FFFFFF',
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
   },
   subtitle: {
     fontSize: '1.5rem',
@@ -94,23 +98,56 @@ const formatKey = (key) => {
 
 const cleanText = (text) => {
   if (typeof text !== 'string') return text;
-  return text.replace(/\*\*/g, '')  // Removes all double asterisks
-           .replace(/\\n/g, '\n')  // Replaces escaped newline characters with actual newlines
-           .replace(/\*/g, '')     // Removes single asterisks
-           .trim();                // Removes whitespace from both ends of the string
+  return text.replace(/\*\*/g, '')
+             .replace(/\\n/g, '\n')
+             .replace(/\*/g, '')
+             .trim();
+};
+const Section = ({ title, data }) => {
+  if (!data) return null;
+
+  return (
+    <motion.div
+      className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <h3 className="text-2xl font-bold text-white mb-6">
+        {formatKey(title)}
+      </h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {Object.entries(data).map(([key, val]) => (
+          <motion.div
+            key={key}
+            className="bg-gray-700 p-4 rounded-lg flex flex-col h-full"
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            <h4 className="text-lg font-semibold text-white mb-3">
+              {formatKey(key)}
+            </h4>
+            <div className="text-gray-200 flex-grow overflow-auto">
+              <RenderValue value={val} />
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </motion.div>
+  );
 };
 
 const RenderValue = ({ value }) => {
   if (value === null || value === undefined) {
-    return <span style={{ color: '#D1D5DB' }}>N/A</span>;
+    return <span className="text-gray-400">N/A</span>;
   }
 
   if (typeof value === 'object') {
     if (Array.isArray(value)) {
       return (
-        <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', color: '#D1D5DB' }}>
+        <ul className="list-disc pl-5">
           {value.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="mb-1">
               {typeof item === 'object' ? <RenderValue value={item} /> : cleanText(item)}
             </li>
           ))}
@@ -118,19 +155,12 @@ const RenderValue = ({ value }) => {
       );
     } else {
       return (
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+        <div className="space-y-2">
           {Object.entries(value).map(([key, val]) => (
-            <motion.div
-              key={key}
-              style={{ ...styles.card, flex: '1 1 300px' }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <h4 style={{ fontSize: '1.1rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>
-                {formatKey(key)}
-              </h4>
-              <div style={{ color: '#D1D5DB' }}><RenderValue value={val} /></div>
-            </motion.div>
+            <div key={key} className="bg-gray-600 p-2 rounded">
+              <span className="font-semibold">{formatKey(key)}:</span>{' '}
+              <RenderValue value={val} />
+            </div>
           ))}
         </div>
       );
@@ -138,39 +168,10 @@ const RenderValue = ({ value }) => {
   }
 
   if (typeof value === 'number') {
-    return <span style={{ color: '#D1D5DB' }}>{value.toFixed(2)}</span>;
+    return <span>{value.toFixed(2)}</span>;
   }
 
-  return <span style={{ color: '#D1D5DB', wordBreak: 'break-word' }}>{cleanText(value.toString())}</span>;
-};
-
-const Section = ({ title, data }) => {
-  if (!data) return null;
-  return (
-    <motion.div
-      style={{...styles.card, marginBottom: '2rem'}}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <h3 style={{ fontSize: '1.5rem', fontWeight: '700', color: 'white', marginBottom: '1.5rem' }}>
-        {formatKey(title)}
-      </h3>
-      <div style={styles.flexContainer}>
-        {Object.entries(data).map(([key, val]) => (
-          <motion.div key={key} style={{ ...styles.card, ...styles.flexItem, margin: 0 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <h4 style={{ fontSize: '1.1rem', fontWeight: '600', color: 'white', marginBottom: '0.75rem' }}>
-              {formatKey(key)}
-            </h4>
-            <div style={{ color: '#D1D5DB' }}><RenderValue value={val} /></div>
-          </motion.div>
-        ))}
-      </div>
-    </motion.div>
-  );
+  return <span className="break-words">{cleanText(value.toString())}</span>;
 };
 
 const FeatureCard = ({ title, description, icon: Icon }) => {
@@ -206,6 +207,32 @@ const FeatureCard = ({ title, description, icon: Icon }) => {
     </motion.div>
   );
 };
+
+const ErrorDisplay = ({ error }) => (
+  <motion.div 
+    style={{
+      ...styles.error,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '1rem',
+      backgroundColor: 'rgba(220, 38, 38, 0.2)',
+      color: '#FCA5A5',
+      borderRadius: '0.5rem',
+      marginBottom: '2rem',
+      marginTop: '2rem',
+      marginLeft:'275px',
+      marginRight:'275px',
+    }}
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    exit={{ opacity: 0, y: -20 }}
+    transition={{ duration: 0.5 }}
+  >
+    <AlertTriangle style={{ marginRight: '0.75rem' }} size={24} />
+    <span>{error}</span>
+  </motion.div>
+);
 
 export default function TextGeneration() {
   const [prompt, setPrompt] = useState('');
@@ -243,15 +270,50 @@ export default function TextGeneration() {
     setLoading(true);
     setGeneratedData(null);
     try {
+      if (!prompt.trim()) {
+        throw new Error('Please enter a prompt.');
+      }
       const response = await api.post('/api/generate-text/', { prompt, max_length: maxLength });
-      if (!response.data || !response.data.generated_text) {
-        throw new Error('Incomplete data received from the server');
+      if (!response.data) {
+        throw new Error('No data received from the server. Please try again.');
+      }
+      if (typeof response.data !== 'object' || !response.data.generated_text) {
+        throw new Error('Invalid data format received from the server. Please try again.');
       }
       const cleanedData = cleanData(response.data.generated_text);
       setGeneratedData(cleanedData);
     } catch (error) {
       console.error('Error generating text:', error);
-      setError('Failed to generate text. Please try again in a few seconds.');
+      if (error.response) {
+        switch (error.response.status) {
+          case 400:
+            setError('Invalid request. Please check your input and try again.');
+            break;
+          case 401:
+            setError('Authentication failed. Please log in and try again.');
+            break;
+          case 403:
+            setError('You do not have permission to access this resource.');
+            break;
+          case 404:
+            setError('The requested resource was not found. Please check your input and try again.');
+            break;
+          case 429:
+            setError('Too many requests. Please wait a moment and try again.');
+            break;
+          case 500:
+            setError('Internal server error. Please try again later.');
+            break;
+          default:
+            setError(`An error occurred (Status ${error.response.status}). Please try again.`);
+        }
+      } else if (error.request) {
+        setError('No response received from server. Please check your internet connection and try again.');
+      } else if (error instanceof Error) {
+        setError(error.message);
+      } else {
+        setError('An unexpected error occurred. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
@@ -327,7 +389,7 @@ export default function TextGeneration() {
                 type="number"
                 placeholder="Max Length"
                 value={maxLength}
-                onChange={(e) => setMaxLength(Number(e.target.value))}
+                onChange={(e) =>setMaxLength(Number(e.target.value))}
                 required
                 style={{...styles.input, flex: 1, margin: 0}}
               />
@@ -355,18 +417,7 @@ export default function TextGeneration() {
         </motion.form>
         
         <AnimatePresence>
-          {error && (
-            <motion.div 
-              style={{ ...styles.card, ...styles.error, marginBottom: '2rem' }}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5 }}
-            >
-              <p style={{ fontWeight: '600', marginBottom: '0.75rem' }}>Error</p>
-              <p>{error}</p>
-            </motion.div>
-          )}
+          {error && <ErrorDisplay error={error} />}
 
           {loading && (
             <motion.div 

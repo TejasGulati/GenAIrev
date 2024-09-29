@@ -33,11 +33,18 @@ function Navbar() {
       }
     };
 
+    const handleOpenToolsDropdown = () => {
+      setDropdownOpen(true);
+    };
+
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
+    window.addEventListener('openToolsDropdown', handleOpenToolsDropdown);
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('openToolsDropdown', handleOpenToolsDropdown);
     };
   }, []);
 
@@ -67,7 +74,7 @@ function Navbar() {
             <Link to="/" className="text-cyan-400 font-bold text-xl flex items-center">
               <Cpu className="mr-2 h-8 w-8 animate-pulse" />
               <span className="hidden sm:inline">EcoPulse</span>
-              <span className="sm:hidden">AI</span>
+              <span className="sm:hidden">EcoPulse</span>
             </Link>
           </div>
           <div className="hidden md:block">

@@ -118,51 +118,6 @@ const cleanText = (text) => {
   if (typeof text !== 'string') return text;
   return text.replace(/\*\*/g, '').replace(/\\n/g, '\n').trim();
 };
-
-const RenderValue = ({ value }) => {
-  if (value === null || value === undefined) {
-    return <span style={{ color: '#D1D5DB' }}>N/A</span>;
-  }
-
-  if (typeof value === 'object') {
-    if (Array.isArray(value)) {
-      return (
-        <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', color: '#F3F4F6' }}>
-          {value.map((item, index) => (
-            <li key={index}>
-              {typeof item === 'object' ? <RenderValue value={item} /> : cleanText(item)}
-            </li>
-          ))}
-        </ul>
-      );
-    } else {
-      return (
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-          {Object.entries(value).map(([key, val]) => (
-            <motion.div
-              key={key}
-              style={{ ...styles.card, flex: '1 1 300px' }}
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              <h4 style={{ fontSize: '1.1rem', fontWeight: '600', color: '#FFFFFF', marginBottom: '0.5rem' }}>
-                {formatKey(key)}
-              </h4>
-              <div style={{ color: '#F3F4F6' }}><RenderValue value={val} /></div>
-            </motion.div>
-          ))}
-        </div>
-      );
-    }
-  }
-
-  if (typeof value === 'number') {
-    return <span style={{ color: '#F3F4F6' }}>{value.toFixed(2)}</span>;
-  }
-
-  return <span style={{ color: '#FFFFFF', wordBreak: 'break-word' }}>{cleanText(value.toString())}</span>;
-};
-
 const Section = ({ title, data }) => {
   if (!data) return null;
 
@@ -176,18 +131,18 @@ const Section = ({ title, data }) => {
       <h3 className="text-2xl font-bold text-white mb-6">
         {formatKey(title)}
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {Object.entries(data).map(([key, val]) => (
           <motion.div
             key={key}
-            className="bg-gray-700 p-4 rounded-lg flex flex-col"
+            className="bg-gray-700 p-4 rounded-lg flex flex-col h-full"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
           >
             <h4 className="text-lg font-semibold text-white mb-3">
               {formatKey(key)}
             </h4>
-            <div className="text-gray-200 flex-grow">
+            <div className="text-gray-200 flex-grow overflow-auto">
               <RenderValue value={val} />
             </div>
           </motion.div>
@@ -195,6 +150,43 @@ const Section = ({ title, data }) => {
       </div>
     </motion.div>
   );
+};
+
+const RenderValue = ({ value }) => {
+  if (value === null || value === undefined) {
+    return <span className="text-gray-400">N/A</span>;
+  }
+
+  if (typeof value === 'object') {
+    if (Array.isArray(value)) {
+      return (
+        <ul className="list-disc pl-5">
+          {value.map((item, index) => (
+            <li key={index} className="mb-1">
+              {typeof item === 'object' ? <RenderValue value={item} /> : cleanText(item)}
+            </li>
+          ))}
+        </ul>
+      );
+    } else {
+      return (
+        <div className="space-y-2">
+          {Object.entries(value).map(([key, val]) => (
+            <div key={key} className="bg-gray-600 p-2 rounded">
+              <span className="font-semibold">{formatKey(key)}:</span>{' '}
+              <RenderValue value={val} />
+            </div>
+          ))}
+        </div>
+      );
+    }
+  }
+
+  if (typeof value === 'number') {
+    return <span>{value.toFixed(2)}</span>;
+  }
+
+  return <span className="break-words">{cleanText(value.toString())}</span>;
 };
 
 const FeatureCard = ({ title, description, icon: Icon }) => {
