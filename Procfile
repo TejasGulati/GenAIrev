@@ -1,1 +1,1 @@
-web: gunicorn GenAIRevolution.wsgi:application
+web: gunicorn --chdir backend GenAIRevolution.wsgi:application
