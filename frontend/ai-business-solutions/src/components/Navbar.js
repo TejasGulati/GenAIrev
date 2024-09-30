@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, User, LogOut, Cpu, LineChart, BookOpen, Zap, BarChart, Image, FileText, Database } from 'lucide-react';
+import { Menu, X, ChevronDown, User, LogOut,  LineChart, BookOpen, Zap, BarChart, Image, FileText, Database, Leaf } from 'lucide-react';
 
 function Navbar() {
   const { isAuthenticated, logout } = useAuth();
@@ -72,7 +72,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="text-cyan-400 font-bold text-xl flex items-center">
-              <Cpu className="mr-2 h-8 w-8 animate-pulse" />
+              <Leaf className="mr-2 h-8 w-8 animate-pulse " />
               <span className="hidden sm:inline">EcoPulse</span>
               <span className="sm:hidden">EcoPulse</span>
             </Link>
