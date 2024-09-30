@@ -10,14 +10,15 @@ from rest_framework.reverse import reverse
 @api_view(['GET'])
 def api_root(request, format=None):
     return Response({
-        'users': reverse('user-list', request=request, format=format),
-        # Add other API endpoints here
+        'users': reverse('login', request=request, format=format),
+        'ai_models': reverse('sustainability_report', request=request, format=format),
+        # Add other API endpoints here as needed
     })
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', api_root, name='api-root'),
-    path('api/', include('ai_models.urls')),
+    path('api/ai_models/', include('ai_models.urls')),
     path('api/users/', include('users.urls')),
     path('', RedirectView.as_view(url='/api/', permanent=False)),
 ]
