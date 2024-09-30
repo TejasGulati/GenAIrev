@@ -1,0 +1,201 @@
+id,company,industry,year,ai_esg_investment_percentage,primary_esg_initiative,ai_contribution,esg_performance_score,carbon_footprint_reduction,resource_efficiency_improvement,stakeholder_trust_index,regulatory_compliance_score,social_impact_score
+1,SpaceVentures,Agriculture,2020,69.07,Carbon Neutrality,Energy Efficiency Modeling,54.78,19.87,21.81,78.46,100,100
+2,GreenMobility,Telecommunications,2023,98.81,Biodiversity Protection,Social Impact Prediction,59.84,20.22,22.69,77.69,95.56,87.08
+3,AIFirst,Biotechnology,2023,97.87,Community Engagement,Ecosystem Monitoring,69.96,25.73,29.91,84.2,100,100
+4,GreenMobility,Agriculture,2021,83.65,Carbon Neutrality,Emissions Tracking,52.12,22.31,22.0,78.3,100,88.84
+5,DataDynamics,Finance,2020,94.25,Biodiversity Protection,Ecosystem Monitoring,62.59,22.43,27.05,75.2,90.74,100
+6,CyberSecure,Energy,2022,89.42,Carbon Neutrality,Emissions Tracking,56.94,23.75,24.17,78.39,100,93.01
+7,EduTech,Entertainment,2021,85.31,Diversity & Inclusion,Bias Detection,48.52,12.09,21.57,71.76,75.36,82.89
+8,EcoSolutions,Entertainment,2021,69.66,Water Conservation,Sustainable Resource Allocation,42.11,11.7,19.89,73.6,72.48,87.17
+9,QuantumLeap,Entertainment,2020,58.58,Community Engagement,Ecosystem Monitoring,37.83,10.42,16.93,74.14,73.7,92.22
+10,GlobalFinance,Energy,2023,117.16,Diversity & Inclusion,Bias Detection,65.12,29.6,27.81,79.55,100,95.16
+11,EduTech,Transportation,2022,92.51,Circular Economy,Waste Reduction Optimization,64.8,25.55,26.14,81.94,100,100
+12,QuantumLeap,Aerospace,2021,105.31,Renewable Energy Adoption,Energy Efficiency Modeling,75.56,28.62,33.75,78.88,100,100
+13,AgroTech,Aerospace,2021,83.63,Carbon Neutrality,Energy Efficiency Modeling,67.72,25.98,24.98,81.74,100,100
+14,DataDynamics,Agriculture,2023,89.08,Circular Economy,Sustainable Resource Allocation,52.72,21.6,24.01,72.43,100,90.1
+15,EnergyFuture,Entertainment,2024,95.25,Fair Labor Practices,Ethical Decision Support,48.67,12.1,21.33,72.92,74.85,77.78
+16,AgroTech,Telecommunications,2024,88.21,Sustainable Supply Chain,Supplier Risk Assessment,58.35,18.89,24.12,79.8,93.75,97.64
+17,CyberSecure,Education,2021,74.21,Diversity & Inclusion,Bias Detection,44.72,12.35,18.4,72.19,84.09,81.81
+18,DataDynamics,Automotive,2023,140.1,Biodiversity Protection,Social Impact Prediction,88.74,36.88,35.61,88.87,100,100
+19,AgroTech,Agriculture,2020,69.7,Fair Labor Practices,Fair Pay Analysis,36.97,13.03,15.78,74.15,100,70.68
+20,AgroTech,Real Estate,2022,77.93,Sustainable Supply Chain,Supplier Risk Assessment,54.56,16.85,20.01,75.62,92.98,93.09
+21,FintechFront,Finance,2024,102.79,Ethical AI,Ethical Decision Support,59.1,20.12,24.72,81.51,92.91,77.64
+22,RoboWorks,Finance,2021,118.77,Fair Labor Practices,Ethical Decision Support,60.64,19.26,25.78,79.35,95.85,82.54
+23,CleanEnergy,Retail,2022,76.43,Community Engagement,Ecosystem Monitoring,58.58,19.23,23.51,74.68,81.65,97.98
+24,HealthInnovate,Manufacturing,2021,76.71,Circular Economy,Waste Reduction Optimization,49.88,22.09,20.3,77.84,100,97.87
+25,AgroTech,Entertainment,2023,84.45,Sustainable Supply Chain,Sustainable Resource Allocation,50.66,13.58,21.32,78.55,75.62,95.26
+26,RoboWorks,Automotive,2023,132.77,Carbon Neutrality,Emissions Tracking,78.01,29.09,31.8,85.5,100,100
+27,SmartRetail,Finance,2020,94.64,Community Engagement,Ecosystem Monitoring,62.52,19.12,25.13,82.5,91.15,100
+28,DataDynamics,Energy,2020,97.02,Circular Economy,Sustainable Resource Allocation,67.43,28.63,25.65,82.04,100,97.72
+29,RoboWorks,Education,2020,57.32,Biodiversity Protection,Social Impact Prediction,37.73,10.31,13.83,74.23,80.56,79.52
+30,GreenMobility,Real Estate,2020,49.16,Biodiversity Protection,Ecosystem Monitoring,33.98,10.69,14.22,72.99,85.69,85.1
+31,EduTech,Energy,2022,123.26,Fair Labor Practices,Fair Pay Analysis,65.29,27.2,28.31,80.53,100,85.4
+32,DataDynamics,Finance,2021,91.58,Community Engagement,Ecosystem Monitoring,66.86,22.39,27.46,81.55,92.95,100
+33,BioGen,Retail,2024,82.87,Community Engagement,Social Impact Prediction,44.99,12.76,19.28,75.63,82.42,82.66
+34,EduTech,Education,2022,83.88,Biodiversity Protection,Ecosystem Monitoring,53.76,16.21,24.15,79.5,82.02,99.33
+35,EduTech,Healthcare,2024,142.19,Biodiversity Protection,Social Impact Prediction,89.79,34.39,34.15,89.05,100,98.74
+36,GlobalFinance,Aerospace,2021,109.88,Water Conservation,Ecosystem Monitoring,70.15,24.76,31.18,84.22,100,100
+37,FintechFront,Education,2021,54.73,Sustainable Supply Chain,Supplier Risk Assessment,32.67,8.89,13.72,69.96,82.56,83.02
+38,SmartRetail,Entertainment,2023,93.03,Biodiversity Protection,Social Impact Prediction,54.11,14.67,23.29,75.87,77.94,83.95
+39,HealthInnovate,Manufacturing,2023,127.27,Community Engagement,Ecosystem Monitoring,94.77,43.44,36.08,84.68,100,100
+40,RoboWorks,Agriculture,2022,81.09,Circular Economy,Sustainable Resource Allocation,57.4,21.46,20.68,74.8,100,98.44
+41,EnergyFuture,Aerospace,2024,120.98,Community Engagement,Ecosystem Monitoring,89.86,30.02,32.42,82.74,100,100
+42,FintechFront,Entertainment,2024,86.32,Ethical AI,Bias Detection,47.35,12.22,21.01,73.23,76.58,79.12
+43,SpaceVentures,Education,2022,61.56,Water Conservation,Sustainable Resource Allocation,39.26,11.69,17.45,69.81,81.78,87.21
+44,RoboWorks,Retail,2023,72.75,Ethical AI,Ethical Decision Support,43.03,12.77,15.27,71.54,82.5,74.7
+45,TechCorp,Telecommunications,2023,121.78,Sustainable Supply Chain,Supplier Risk Assessment,80.29,25.77,33.6,87.02,96.08,100
+46,EcoSolutions,Education,2023,80.17,Renewable Energy Adoption,Emissions Tracking,55.33,15.04,21.42,74.69,85.33,91.12
+47,EnergyFuture,Healthcare,2023,122.9,Community Engagement,Ecosystem Monitoring,90.98,34.66,31.06,90.04,100,100
+48,NanoTech,Real Estate,2023,59.68,Circular Economy,Sustainable Resource Allocation,40.15,12.41,15.23,72.62,88.35,86.8
+49,BioGen,Retail,2024,113.71,Community Engagement,Ecosystem Monitoring,75.62,22.54,30.69,84.79,83.82,100
+50,NanoTech,Retail,2020,72.94,Renewable Energy Adoption,Emissions Tracking,48.1,13.46,17.33,75.36,79.89,86.55
+51,TechCorp,Transportation,2022,100.53,Fair Labor Practices,Fair Pay Analysis,51.38,23.72,22.77,73.58,100,76.22
+52,AIFirst,Manufacturing,2021,95.73,Circular Economy,Sustainable Resource Allocation,56.68,24.44,22.47,80.78,100,91.34
+53,SmartRetail,Energy,2020,93.08,Fair Labor Practices,Ethical Decision Support,50.06,23.78,20.58,77.87,100,79.0
+54,FintechFront,Entertainment,2021,78.44,Sustainable Supply Chain,Supplier Risk Assessment,55.65,14.55,21.36,74.67,72.59,96.09
+55,RoboWorks,Healthcare,2023,117.25,Carbon Neutrality,Energy Efficiency Modeling,85.58,31.95,31.92,89.36,100,100
+56,DataDynamics,Aerospace,2023,101.62,Biodiversity Protection,Social Impact Prediction,62.84,21.45,26.21,80.23,100,93.3
+57,SmartRetail,Energy,2023,90.83,Ethical AI,Bias Detection,56.09,27.21,23.26,76.3,100,83.0
+58,SmartRetail,Biotechnology,2022,101.96,Community Engagement,Ecosystem Monitoring,75.82,29.81,26.87,85.69,100,100
+59,TechCorp,Retail,2020,73.9,Ethical AI,Bias Detection,47.65,13.17,18.05,73.69,82.31,82.75
+60,CloudPioneer,Entertainment,2022,68.71,Circular Economy,Sustainable Resource Allocation,43.69,12.82,19.61,74.35,74.63,86.26
+61,EcoSolutions,Energy,2023,129.4,Renewable Energy Adoption,Emissions Tracking,80.81,35.35,32.36,85.73,100,100
+62,FintechFront,Education,2021,55.0,Ethical AI,Ethical Decision Support,30.35,9.23,12.23,66.33,80.03,68.03
+63,EnergyFuture,Finance,2020,88.49,Water Conservation,Sustainable Resource Allocation,56.54,17.14,24.14,75.76,92.86,89.76
+64,CloudPioneer,Healthcare,2022,97.72,Community Engagement,Social Impact Prediction,61.32,23.52,21.82,79.46,100,87.45
+65,BioGen,Information Technology,2023,133.78,Community Engagement,Ecosystem Monitoring,85.29,29.23,38.71,89.27,100,100
+66,AgroTech,Entertainment,2024,98.79,Sustainable Supply Chain,Supplier Risk Assessment,57.8,16.63,27.98,78.62,74.99,93.96
+67,NanoTech,Retail,2024,101.83,Circular Economy,Sustainable Resource Allocation,69.93,21.11,27.63,81.16,84.91,97.84
+68,QuantumLeap,Healthcare,2024,155.35,Fair Labor Practices,Fair Pay Analysis,79.63,28.18,31.16,86.42,100,90.53
+69,EcoSolutions,Agriculture,2020,61.53,Diversity & Inclusion,Bias Detection,40.29,15.15,14.14,72.31,100,83.06
+70,EcoSolutions,Automotive,2024,154.83,Renewable Energy Adoption,Emissions Tracking,105.08,39.45,42.14,88.66,100,100
+71,TechCorp,Automotive,2022,119.23,Diversity & Inclusion,Fair Pay Analysis,62.0,24.95,27.37,78.27,100,81.91
+72,GreenMobility,Transportation,2023,111.45,Circular Economy,Waste Reduction Optimization,85.4,32.74,28.34,82.71,100,100
+73,BioGen,Entertainment,2022,79.62,Renewable Energy Adoption,Energy Efficiency Modeling,62.49,18.48,22.02,76.2,74.45,100
+74,HealthInnovate,Entertainment,2024,107.62,Circular Economy,Waste Reduction Optimization,80.21,22.64,27.45,84.14,75.6,100
+75,EduTech,Retail,2024,78.72,Community Engagement,Ecosystem Monitoring,59.53,18.07,21.92,80.82,82.49,100
+76,EcoSolutions,Manufacturing,2021,85.11,Diversity & Inclusion,Bias Detection,50.04,20.88,21.58,76.3,100,85.68
+77,RoboWorks,Manufacturing,2021,71.01,Sustainable Supply Chain,Supplier Risk Assessment,48.33,18.95,18.99,76.12,100,87.41
+78,CloudPioneer,Transportation,2021,98.8,Renewable Energy Adoption,Emissions Tracking,58.48,23.47,24.87,77.04,100,95.14
+79,TechCorp,Automotive,2023,153.57,Community Engagement,Social Impact Prediction,100.75,42.76,37.92,91.66,100,100
+80,CloudPioneer,Telecommunications,2021,88.75,Community Engagement,Social Impact Prediction,57.58,18.28,22.32,80.39,90.1,84.77
+81,AIFirst,Manufacturing,2024,133.2,Ethical AI,Ethical Decision Support,69.31,30.9,29.63,81.17,100,84.11
+82,CloudPioneer,Biotechnology,2022,113.67,Renewable Energy Adoption,Energy Efficiency Modeling,93.43,34.69,31.99,86.28,100,100
+83,HealthInnovate,Manufacturing,2024,90.5,Sustainable Supply Chain,Supplier Risk Assessment,63.24,26.06,21.48,75.18,100,100
+84,RoboWorks,Retail,2022,73.87,Ethical AI,Bias Detection,40.34,11.65,16.77,68.95,80.89,75.77
+85,BioGen,Aerospace,2021,98.93,Circular Economy,Sustainable Resource Allocation,68.56,23.47,27.98,84.4,100,100
+86,DataDynamics,Finance,2023,97.67,Carbon Neutrality,Energy Efficiency Modeling,77.56,27.5,30.07,85.55,90.84,100
+87,TechCorp,Telecommunications,2021,107.26,Ethical AI,Ethical Decision Support,53.23,17.36,21.95,72.66,93.55,79.28
+88,CyberSecure,Telecommunications,2024,92.71,Water Conservation,Ecosystem Monitoring,66.94,23.23,24.77,83.0,93.53,100
+89,CleanEnergy,Telecommunications,2020,93.35,Community Engagement,Social Impact Prediction,52.87,18.07,20.95,73.05,93.24,83.17
+90,CyberSecure,Biotechnology,2020,110.57,Circular Economy,Sustainable Resource Allocation,74.27,27.51,29.05,84.68,100,100
+91,GreenMobility,Entertainment,2020,61.33,Fair Labor Practices,Fair Pay Analysis,36.89,9.66,13.3,70.72,74.35,74.3
+92,QuantumLeap,Finance,2024,102.93,Fair Labor Practices,Fair Pay Analysis,52.86,18.12,23.53,72.53,95.23,75.61
+93,QuantumLeap,Education,2023,95.42,Biodiversity Protection,Social Impact Prediction,59.94,18.71,20.79,78.48,82.08,92.94
+94,CyberSecure,Healthcare,2024,143.28,Fair Labor Practices,Fair Pay Analysis,75.83,29.59,32.91,86.81,100,84.74
+95,EnergyFuture,Biotechnology,2024,143.51,Diversity & Inclusion,Bias Detection,82.34,28.46,32.7,85.15,100,100
+96,AIFirst,Education,2022,67.8,Circular Economy,Sustainable Resource Allocation,45.78,14.77,17.22,73.92,79.87,88.4
+97,RoboWorks,Agriculture,2024,66.2,Sustainable Supply Chain,Sustainable Resource Allocation,46.65,17.36,16.29,74.97,100,88.14
+98,AgroTech,Entertainment,2022,79.93,Renewable Energy Adoption,Energy Efficiency Modeling,62.52,16.46,25.75,81.95,73.42,100
+99,FintechFront,Healthcare,2024,137.13,Renewable Energy Adoption,Energy Efficiency Modeling,109.02,41.35,41.94,93.69,100,100
+100,AIFirst,Real Estate,2020,49.66,Renewable Energy Adoption,Emissions Tracking,29.42,10.2,12.57,69.93,88.45,76.68
+101,HealthInnovate,Information Technology,2021,126.23,Water Conservation,Sustainable Resource Allocation,83.49,28.38,34.21,89.17,100,100
+102,FintechFront,Agriculture,2020,57.53,Renewable Energy Adoption,Emissions Tracking,36.0,14.67,14.0,72.64,100,87.01
+103,DataDynamics,Aerospace,2022,127.67,Water Conservation,Ecosystem Monitoring,93.2,30.32,38.26,85.98,100,100
+104,CleanEnergy,Finance,2024,122.46,Community Engagement,Ecosystem Monitoring,86.08,29.91,36.64,83.03,93.47,100
+105,EduTech,Healthcare,2020,93.09,Water Conservation,Sustainable Resource Allocation,58.92,22.0,25.89,75.28,100,91.33
+106,HealthInnovate,Real Estate,2020,68.78,Community Engagement,Social Impact Prediction,40.17,13.95,15.39,68.6,90.76,78.9
+107,BioGen,Real Estate,2022,85.24,Diversity & Inclusion,Bias Detection,54.2,18.8,18.71,79.68,90.94,82.49
+108,AIFirst,Finance,2020,71.17,Sustainable Supply Chain,Supplier Risk Assessment,48.07,16.76,17.03,76.23,89.84,93.13
+109,SmartRetail,Aerospace,2020,95.89,Diversity & Inclusion,Fair Pay Analysis,55.92,21.94,22.92,77.1,100,80.5
+110,RoboWorks,Biotechnology,2023,118.41,Renewable Energy Adoption,Emissions Tracking,81.89,31.77,30.89,85.97,100,100
+111,CyberSecure,Information Technology,2021,132.19,Fair Labor Practices,Fair Pay Analysis,77.36,29.0,31.59,81.27,100,85.78
+112,RoboWorks,Manufacturing,2024,125.24,Diversity & Inclusion,Fair Pay Analysis,67.8,27.87,26.31,82.99,100,84.13
+113,BioGen,Finance,2021,77.16,Ethical AI,Bias Detection,43.54,14.06,18.2,69.69,91.92,84.4
+114,QuantumLeap,Transportation,2022,131.79,Sustainable Supply Chain,Supplier Risk Assessment,82.09,37.82,32.44,86.59,100,100
+115,CleanEnergy,Biotechnology,2024,132.66,Carbon Neutrality,Emissions Tracking,82.26,27.53,33.86,87.74,100,100
+116,EnergyFuture,Aerospace,2024,111.61,Biodiversity Protection,Ecosystem Monitoring,80.72,29.74,34.22,81.24,100,100
+117,QuantumLeap,Finance,2024,111.56,Biodiversity Protection,Social Impact Prediction,71.59,23.37,25.31,78.0,94.53,92.57
+118,GreenMobility,Manufacturing,2024,113.27,Carbon Neutrality,Energy Efficiency Modeling,79.21,31.61,37.33,83.17,100,100
+119,GreenMobility,Education,2022,84.08,Ethical AI,Bias Detection,48.48,15.79,19.14,76.5,81.15,87.15
+120,HealthInnovate,Telecommunications,2021,112.38,Fair Labor Practices,Ethical Decision Support,56.77,17.45,23.6,76.46,94.2,79.17
+121,HealthInnovate,Energy,2023,140.09,Sustainable Supply Chain,Sustainable Resource Allocation,96.26,43.21,39.45,85.0,100,100
+122,TechCorp,Entertainment,2020,67.24,Community Engagement,Social Impact Prediction,39.78,11.51,17.72,70.07,75.36,78.74
+123,EcoSolutions,Energy,2024,145.1,Community Engagement,Social Impact Prediction,94.69,44.3,35.95,92.25,100,100
+124,AgroTech,Retail,2020,65.91,Sustainable Supply Chain,Sustainable Resource Allocation,46.31,13.77,18.42,77.19,81.02,85.03
+125,SmartRetail,Information Technology,2020,108.54,Community Engagement,Social Impact Prediction,61.1,19.98,25.2,77.04,100,86.94
+126,AIFirst,Real Estate,2024,86.95,Renewable Energy Adoption,Emissions Tracking,56.41,18.97,20.66,77.44,91.13,95.16
+127,CyberSecure,Automotive,2020,107.04,Sustainable Supply Chain,Sustainable Resource Allocation,69.42,26.95,25.24,84.74,100,100
+128,SmartRetail,Aerospace,2021,96.62,Sustainable Supply Chain,Sustainable Resource Allocation,66.72,23.88,25.66,77.91,100,99.24
+129,FintechFront,Transportation,2021,99.19,Carbon Neutrality,Emissions Tracking,68.09,27.66,27.68,81.07,100,100
+130,CloudPioneer,Entertainment,2021,69.68,Circular Economy,Waste Reduction Optimization,48.58,13.31,21.32,77.68,73.09,95.81
+131,TechCorp,Biotechnology,2023,104.95,Ethical AI,Bias Detection,57.06,21.61,26.57,77.93,100,90.86
+132,CyberSecure,Agriculture,2024,105.48,Community Engagement,Ecosystem Monitoring,72.25,27.65,27.38,81.49,100,100
+133,CloudPioneer,Retail,2021,80.87,Carbon Neutrality,Emissions Tracking,51.01,14.44,22.74,73.16,82.92,90.89
+134,CleanEnergy,Automotive,2023,140.89,Community Engagement,Ecosystem Monitoring,105.16,38.73,38.9,93.66,100,100
+135,EnergyFuture,Manufacturing,2020,95.74,Renewable Energy Adoption,Emissions Tracking,65.57,29.15,24.68,83.3,100,99.75
+136,SmartRetail,Entertainment,2024,78.3,Carbon Neutrality,Energy Efficiency Modeling,59.44,14.95,22.61,79.39,73.56,100
+137,GlobalFinance,Finance,2021,106.03,Renewable Energy Adoption,Energy Efficiency Modeling,78.46,27.31,32.27,83.36,94.15,100
+138,SpaceVentures,Manufacturing,2020,82.4,Circular Economy,Sustainable Resource Allocation,54.39,21.21,21.54,75.19,100,90.22
+139,EcoSolutions,Retail,2021,86.85,Ethical AI,Bias Detection,48.32,15.66,19.56,74.66,82.8,83.07
+140,CyberSecure,Telecommunications,2020,104.15,Circular Economy,Waste Reduction Optimization,74.37,22.48,31.29,86.28,92.04,100
+141,EnergyFuture,Real Estate,2023,88.38,Diversity & Inclusion,Bias Detection,52.65,18.51,21.52,79.13,92.93,86.83
+142,SpaceVentures,Telecommunications,2024,113.86,Renewable Energy Adoption,Emissions Tracking,69.78,22.0,29.77,83.03,94.37,100
+143,GreenMobility,Finance,2023,97.6,Sustainable Supply Chain,Sustainable Resource Allocation,66.41,22.86,27.09,79.59,92.19,100
+144,CleanEnergy,Biotechnology,2024,140.14,Biodiversity Protection,Social Impact Prediction,81.27,31.5,36.57,81.3,100,98.33
+145,CleanEnergy,Retail,2024,80.59,Community Engagement,Ecosystem Monitoring,60.88,17.08,23.2,77.74,83.0,100
+146,NanoTech,Biotechnology,2020,101.35,Water Conservation,Ecosystem Monitoring,64.49,23.59,30.82,80.85,100,100
+147,FintechFront,Entertainment,2023,73.86,Sustainable Supply Chain,Sustainable Resource Allocation,43.89,11.49,19.37,73.57,75.89,83.45
+148,HealthInnovate,Education,2020,73.33,Biodiversity Protection,Ecosystem Monitoring,54.28,16.55,19.45,74.74,83.46,96.31
+149,NanoTech,Education,2020,64.82,Renewable Energy Adoption,Energy Efficiency Modeling,46.53,12.73,20.49,76.13,81.66,100
+150,HealthInnovate,Telecommunications,2021,79.68,Circular Economy,Sustainable Resource Allocation,49.76,17.74,20.15,73.81,89.68,91.19
+151,EnergyFuture,Entertainment,2024,94.91,Community Engagement,Social Impact Prediction,62.42,16.17,23.04,78.19,78.05,87.94
+152,GlobalFinance,Real Estate,2022,70.66,Circular Economy,Sustainable Resource Allocation,42.38,14.45,19.1,73.21,90.14,89.41
+153,EcoSolutions,Education,2020,66.44,Renewable Energy Adoption,Emissions Tracking,45.64,12.99,17.22,70.94,83.93,85.18
+154,SpaceVentures,Telecommunications,2024,128.93,Carbon Neutrality,Emissions Tracking,82.58,25.19,35.42,84.99,95.02,100
+155,SpaceVentures,Entertainment,2024,80.69,Renewable Energy Adoption,Emissions Tracking,54.88,14.25,22.12,74.39,73.85,93.82
+156,BioGen,Biotechnology,2024,120.2,Carbon Neutrality,Emissions Tracking,72.12,25.79,28.18,81.85,100,99.2
+157,DataDynamics,Energy,2024,130.93,Water Conservation,Ecosystem Monitoring,99.93,48.98,33.75,88.75,100,100
+158,QuantumLeap,Telecommunications,2022,121.56,Fair Labor Practices,Ethical Decision Support,64.49,22.35,27.6,82.37,94.19,85.07
+159,RoboWorks,Biotechnology,2024,125.66,Fair Labor Practices,Ethical Decision Support,71.78,23.42,26.85,82.45,100,82.47
+160,RoboWorks,Telecommunications,2021,93.5,Water Conservation,Ecosystem Monitoring,66.5,20.91,26.4,83.06,90.57,100
+161,HealthInnovate,Retail,2020,65.71,Renewable Energy Adoption,Emissions Tracking,42.46,13.87,17.71,71.98,80.45,89.53
+162,CyberSecure,Energy,2022,100.62,Diversity & Inclusion,Fair Pay Analysis,55.36,23.3,23.33,74.59,100,81.83
+163,DataDynamics,Real Estate,2020,71.44,Circular Economy,Sustainable Resource Allocation,46.35,16.18,19.27,71.06,88.46,92.15
+164,HealthInnovate,Healthcare,2024,144.49,Fair Labor Practices,Ethical Decision Support,82.14,31.05,29.9,84.89,100,94.0
+165,CloudPioneer,Finance,2024,131.4,Fair Labor Practices,Ethical Decision Support,73.21,22.3,30.67,84.84,96.29,85.33
+166,GreenMobility,Manufacturing,2023,101.15,Diversity & Inclusion,Fair Pay Analysis,54.12,20.59,21.71,74.45,100,76.02
+167,EduTech,Finance,2024,116.07,Diversity & Inclusion,Bias Detection,71.13,21.97,29.93,79.42,93.0,98.51
+168,SpaceVentures,Manufacturing,2024,112.45,Carbon Neutrality,Emissions Tracking,80.16,33.44,27.28,80.22,100,100
+169,SpaceVentures,Education,2020,77.27,Biodiversity Protection,Social Impact Prediction,46.05,12.64,19.44,75.13,84.14,79.39
+170,FintechFront,Aerospace,2023,130.54,Ethical AI,Bias Detection,75.62,26.01,30.56,86.56,100,94.46
+171,BioGen,Agriculture,2024,103.93,Biodiversity Protection,Social Impact Prediction,63.45,24.6,26.2,82.4,100,87.86
+172,EnergyFuture,Telecommunications,2023,97.47,Sustainable Supply Chain,Sustainable Resource Allocation,61.26,21.78,23.43,77.89,90.78,98.84
+173,BioGen,Manufacturing,2023,91.93,Circular Economy,Waste Reduction Optimization,69.75,32.1,27.98,79.32,100,100
+174,HealthInnovate,Biotechnology,2024,96.66,Carbon Neutrality,Energy Efficiency Modeling,72.31,25.88,26.19,85.32,100,100
+175,DataDynamics,Aerospace,2022,133.64,Carbon Neutrality,Emissions Tracking,79.08,27.46,34.34,86.14,100,100
+176,SmartRetail,Energy,2021,107.36,Fair Labor Practices,Ethical Decision Support,63.17,26.78,23.19,80.59,100,81.17
+177,BioGen,Manufacturing,2024,116.86,Circular Economy,Waste Reduction Optimization,87.16,34.3,30.88,90.32,100,100
+178,BioGen,Transportation,2021,107.3,Community Engagement,Ecosystem Monitoring,80.05,33.06,31.93,81.69,100,100
+179,GreenMobility,Telecommunications,2020,110.72,Water Conservation,Ecosystem Monitoring,78.18,26.28,33.67,86.68,94.34,100
+180,FintechFront,Real Estate,2023,78.43,Diversity & Inclusion,Fair Pay Analysis,42.42,14.89,16.99,75.03,90.31,75.09
+181,NanoTech,Manufacturing,2024,131.28,Sustainable Supply Chain,Sustainable Resource Allocation,80.13,32.18,33.96,87.71,100,100
+182,SmartRetail,Agriculture,2022,76.67,Carbon Neutrality,Emissions Tracking,53.61,18.83,19.67,79.26,100,92.14
+183,QuantumLeap,Finance,2023,106.32,Water Conservation,Ecosystem Monitoring,79.99,25.09,28.33,83.8,91.87,100
+184,FintechFront,Manufacturing,2023,110.13,Community Engagement,Ecosystem Monitoring,81.32,34.95,29.66,81.12,100,100
+185,TechCorp,Biotechnology,2020,88.66,Fair Labor Practices,Fair Pay Analysis,49.48,19.06,18.98,76.69,100,73.45
+186,AgroTech,Entertainment,2020,62.98,Fair Labor Practices,Fair Pay Analysis,35.48,8.78,14.07,67.75,73.08,70.52
+187,BioGen,Aerospace,2022,127.07,Diversity & Inclusion,Bias Detection,72.49,28.03,32.65,80.8,100,98.16
+188,AIFirst,Finance,2024,95.46,Ethical AI,Ethical Decision Support,51.47,17.25,20.62,72.79,94.01,75.28
+189,CloudPioneer,Manufacturing,2020,98.04,Renewable Energy Adoption,Energy Efficiency Modeling,76.64,31.55,29.2,86.76,100,100
+190,GlobalFinance,Telecommunications,2020,81.53,Water Conservation,Ecosystem Monitoring,57.22,18.82,24.22,74.87,91.77,100
+191,TechCorp,Biotechnology,2021,120.99,Biodiversity Protection,Ecosystem Monitoring,82.5,28.95,32.42,85.31,100,100
+192,QuantumLeap,Healthcare,2021,88.69,Biodiversity Protection,Ecosystem Monitoring,56.17,23.15,23.46,80.27,100,100
+193,GreenMobility,Healthcare,2020,109.01,Fair Labor Practices,Ethical Decision Support,57.09,24.23,25.26,80.29,100,76.29
+194,SmartRetail,Telecommunications,2022,95.04,Water Conservation,Sustainable Resource Allocation,59.62,19.89,26.89,75.11,95.36,97.01
+195,HealthInnovate,Education,2022,73.45,Fair Labor Practices,Ethical Decision Support,36.7,10.17,15.06,71.67,84.01,69.95
+196,TechCorp,Retail,2021,63.92,Diversity & Inclusion,Fair Pay Analysis,35.11,10.28,13.27,67.05,82.0,72.44
+197,QuantumLeap,Energy,2024,137.88,Carbon Neutrality,Energy Efficiency Modeling,104.16,43.7,39.06,92.77,100,100
+198,RoboWorks,Agriculture,2024,90.14,Biodiversity Protection,Social Impact Prediction,56.21,21.97,23.19,73.75,100,84.65
+199,QuantumLeap,Biotechnology,2022,134.66,Fair Labor Practices,Ethical Decision Support,68.5,23.8,26.73,84.3,100,83.99
+200,GreenMobility,Telecommunications,2020,121.12,Water Conservation,Ecosystem Monitoring,86.38,26.72,32.7,88.76,93.98,100

@@ -1,0 +1,201 @@
+id,company,industry,year,ai_investment_percentage,traditional_process_impacted,ai_technology_used,process_efficiency_improvement,cost_savings,jobs_automated,new_jobs_created,product_quality_improvement,time_to_market_reduction
+1,SpaceVentures,Agriculture,2020,47.54,Quality Control,Predictive Analytics,28.69,13.18,6.66,5.19,10.78,12.69
+2,GreenMobility,Telecommunications,2023,93.24,Marketing,Quantum Machine Learning,95.11,50.25,26.13,24.9,30.18,49.69
+3,AIFirst,Biotechnology,2023,108.16,Customer Support,Generative Models,72.01,31.91,16.42,15.8,22.69,35.96
+4,GreenMobility,Agriculture,2021,54.36,Financial Planning,Reinforcement Learning,36.78,16.01,7.9,5.94,12.6,15.63
+5,DataDynamics,Finance,2020,77.33,Manufacturing,Speech Recognition,58.49,27.53,15.9,13.18,16.11,31.85
+6,CyberSecure,Energy,2022,69.5,Logistics,Generative Models,41.57,20.16,9.85,7.73,14.69,21.69
+7,EduTech,Entertainment,2021,79.32,Financial Planning,Generative Models,47.53,23.08,11.32,9.37,17.19,20.08
+8,EcoSolutions,Entertainment,2021,85.62,Marketing,Speech Recognition,46.65,21.84,10.3,8.97,17.79,18.59
+9,QuantumLeap,Entertainment,2020,74.38,Financial Planning,Computer Vision,62.6,29.39,15.13,12.44,19.14,28.48
+10,GlobalFinance,Energy,2023,69.43,Product Development,Predictive Analytics,48.6,21.78,10.87,9.53,16.16,22.51
+11,EduTech,Transportation,2022,80.07,Logistics,Generative Models,48.08,24.51,12.01,9.83,16.1,25.08
+12,QuantumLeap,Aerospace,2021,84.72,Quality Control,Computer Vision,92.66,44.81,30.21,26.16,24.08,52.76
+13,AgroTech,Aerospace,2021,77.16,Logistics,Computer Vision,80.41,40.88,23.22,22.21,23.63,50.59
+14,DataDynamics,Agriculture,2023,68.37,Product Development,Generative Models,43.86,19.63,9.41,7.73,15.32,19.44
+15,EnergyFuture,Entertainment,2024,97.81,Product Development,Expert Systems,58.72,24.8,13.16,14.32,19.61,24.74
+16,AgroTech,Telecommunications,2024,107.68,Logistics,Speech Recognition,74.74,38.41,21.38,21.85,23.85,39.85
+17,CyberSecure,Education,2021,70.29,Human Resources,Robotics,49.23,22.28,9.63,8.26,19.43,19.61
+18,DataDynamics,Automotive,2023,97.39,Manufacturing,Expert Systems,57.07,28.22,15.41,14.78,17.74,32.22
+19,AgroTech,Agriculture,2020,48.55,Quality Control,Predictive Analytics,32.75,14.64,7.27,6.03,11.4,13.66
+20,AgroTech,Real Estate,2022,65.93,Financial Planning,Predictive Analytics,41.94,19.98,8.86,7.26,17.24,15.63
+21,FintechFront,Finance,2024,95.52,Customer Support,Quantum Machine Learning,108.38,49.26,28.09,30.16,32.36,61.87
+22,RoboWorks,Finance,2021,99.12,Financial Planning,Autonomous Vehicles,96.12,47.24,28.37,27.33,27.38,52.17
+23,CleanEnergy,Retail,2022,86.53,Manufacturing,Predictive Analytics,65.06,32.9,16.99,15.59,21.56,31.69
+24,HealthInnovate,Manufacturing,2021,72.16,Manufacturing,Robotics,72.78,35.58,20.23,17.66,20.79,41.32
+25,AgroTech,Entertainment,2023,87.13,Inventory Management,Generative Models,56.32,23.76,11.56,12.16,18.94,23.75
+26,RoboWorks,Automotive,2023,93.29,Logistics,Robotics,83.65,39.22,20.75,19.46,30.23,46.69
+27,SmartRetail,Finance,2020,93.22,Inventory Management,Quantum Machine Learning,114.06,51.9,29.91,27.63,30.04,65.84
+28,DataDynamics,Energy,2020,60.02,Inventory Management,Computer Vision,46.29,24.03,11.62,9.26,18.31,21.29
+29,RoboWorks,Education,2020,70.41,Quality Control,Generative Models,41.44,17.84,8.3,7.22,16.82,17.08
+30,GreenMobility,Real Estate,2020,54.87,Manufacturing,Robotics,40.04,17.09,8.05,5.64,15.98,15.47
+31,EduTech,Energy,2022,75.35,Marketing,Computer Vision,59.71,29.27,15.45,12.2,19.19,27.68
+32,DataDynamics,Finance,2021,98.45,R&D,Predictive Analytics,85.82,40.51,26.17,23.84,23.68,45.72
+33,BioGen,Retail,2024,92.8,Manufacturing,Expert Systems,61.05,27.94,16.81,17.39,19.91,33.23
+34,EduTech,Education,2022,88.26,R&D,Robotics,70.1,30.67,13.66,12.69,23.9,26.82
+35,EduTech,Healthcare,2024,105.65,Manufacturing,Robotics,104.61,50.28,28.1,28.35,34.08,53.32
+36,GlobalFinance,Aerospace,2021,86.31,Manufacturing,Predictive Analytics,70.97,33.53,21.52,20.18,21.54,45.15
+37,FintechFront,Education,2021,69.17,Manufacturing,Natural Language Processing,45.2,20.15,9.82,8.5,18.69,16.78
+38,SmartRetail,Entertainment,2023,102.79,Marketing,Natural Language Processing,78.54,32.75,17.38,16.07,28.43,33.46
+39,HealthInnovate,Manufacturing,2023,81.13,Human Resources,Autonomous Vehicles,74.5,37.66,19.86,18.01,20.88,40.21
+40,RoboWorks,Agriculture,2022,61.36,Customer Support,Expert Systems,36.69,15.53,8.68,6.42,11.53,16.32
+41,EnergyFuture,Aerospace,2024,92.47,Inventory Management,Expert Systems,69.06,33.58,19.37,21.15,20.19,43.44
+42,FintechFront,Entertainment,2024,83.8,Quality Control,Robotics,72.75,37.13,17.25,16.73,24.01,31.76
+43,SpaceVentures,Education,2022,73.82,R&D,Speech Recognition,44.48,19.82,9.08,8.18,15.57,19.17
+44,RoboWorks,Retail,2023,91.52,Marketing,Natural Language Processing,80.12,40.12,20.67,21.13,23.27,43.93
+45,TechCorp,Telecommunications,2023,108.72,Inventory Management,Predictive Analytics,89.36,47.54,27.13,27.37,24.8,51.9
+46,EcoSolutions,Education,2023,98.0,Marketing,Robotics,72.05,28.72,13.7,12.03,30.01,29.38
+47,EnergyFuture,Healthcare,2023,90.26,Quality Control,Autonomous Vehicles,84.74,44.85,23.31,21.22,24.64,45.74
+48,NanoTech,Real Estate,2023,66.87,Logistics,Expert Systems,35.64,16.16,7.51,5.89,13.21,15.18
+49,BioGen,Retail,2024,90.98,Logistics,Expert Systems,57.03,25.53,13.52,13.28,18.07,28.75
+50,NanoTech,Retail,2020,66.99,Product Development,Robotics,61.64,28.05,17.29,15.59,21.02,30.89
+51,TechCorp,Transportation,2022,66.7,Inventory Management,Speech Recognition,46.82,21.69,11.54,10.06,14.54,20.35
+52,AIFirst,Manufacturing,2021,62.69,Customer Support,Predictive Analytics,56.55,27.88,17.37,15.37,14.24,30.25
+53,SmartRetail,Energy,2020,68.3,Human Resources,Autonomous Vehicles,58.82,25.17,13.51,10.57,20.88,29.77
+54,FintechFront,Entertainment,2021,71.36,Quality Control,Natural Language Processing,55.54,24.14,11.69,10.96,18.13,23.59
+55,RoboWorks,Healthcare,2023,91.36,Human Resources,Expert Systems,57.35,27.07,14.94,13.07,16.69,29.5
+56,DataDynamics,Aerospace,2023,108.65,Manufacturing,Speech Recognition,84.11,46.14,26.06,24.85,24.99,50.56
+57,SmartRetail,Energy,2023,71.11,Quality Control,Computer Vision,56.53,24.81,14.52,11.95,20.41,29.17
+58,SmartRetail,Biotechnology,2022,91.79,Customer Support,Computer Vision,79.2,34.91,19.8,19.28,24.82,36.52
+59,TechCorp,Retail,2020,68.79,Product Development,Robotics,72.07,33.52,20.14,17.38,19.27,39.81
+60,CloudPioneer,Entertainment,2022,87.59,Customer Support,Autonomous Vehicles,71.18,30.17,14.21,13.2,23.61,33.87
+61,EcoSolutions,Energy,2023,83.19,Financial Planning,Autonomous Vehicles,69.63,30.22,15.52,15.0,24.6,33.84
+62,FintechFront,Education,2021,61.26,Inventory Management,Speech Recognition,34.28,13.94,6.25,4.87,12.87,12.57
+63,EnergyFuture,Finance,2020,79.94,Inventory Management,Quantum Machine Learning,86.32,44.54,22.35,19.12,26.46,48.63
+64,CloudPioneer,Healthcare,2022,88.65,Logistics,Autonomous Vehicles,73.21,36.7,17.29,17.28,24.31,37.9
+65,BioGen,Information Technology,2023,97.96,R&D,Predictive Analytics,95.04,44.81,25.67,26.91,22.17,51.64
+66,AgroTech,Entertainment,2024,97.45,Human Resources,Natural Language Processing,65.51,30.79,14.41,14.94,24.25,27.48
+67,NanoTech,Retail,2024,95.3,Product Development,Expert Systems,60.31,31.44,15.14,13.47,17.3,33.6
+68,QuantumLeap,Healthcare,2024,108.04,Financial Planning,Generative Models,81.8,40.78,21.32,22.51,22.96,43.77
+69,EcoSolutions,Agriculture,2020,46.82,Customer Support,Reinforcement Learning,29.66,12.49,6.29,4.4,11.68,12.54
+70,EcoSolutions,Automotive,2024,108.94,Inventory Management,Robotics,101.46,46.6,25.96,27.55,30.16,51.07
+71,TechCorp,Automotive,2022,94.07,Product Development,Expert Systems,63.17,33.83,17.02,16.54,18.1,31.87
+72,GreenMobility,Transportation,2023,83.84,Logistics,Natural Language Processing,70.48,34.27,15.7,14.97,20.66,31.76
+73,BioGen,Entertainment,2022,86.64,Inventory Management,Robotics,70.14,31.65,14.49,13.19,24.91,30.01
+74,HealthInnovate,Entertainment,2024,96.51,Marketing,Predictive Analytics,64.68,26.05,13.07,13.14,23.79,26.28
+75,EduTech,Retail,2024,96.1,Logistics,Speech Recognition,73.24,33.08,18.44,18.07,20.78,37.87
+76,EcoSolutions,Manufacturing,2021,74.35,Manufacturing,Speech Recognition,58.82,29.97,18.11,15.41,15.82,35.59
+77,RoboWorks,Manufacturing,2021,61.91,Product Development,Generative Models,48.16,21.81,13.86,11.54,14.62,25.73
+78,CloudPioneer,Transportation,2021,71.23,Customer Support,Quantum Machine Learning,62.53,28.23,13.93,12.64,24.26,28.64
+79,TechCorp,Automotive,2023,92.56,R&D,Predictive Analytics,66.52,33.41,16.19,16.5,21.2,33.56
+80,CloudPioneer,Telecommunications,2021,93.06,Manufacturing,Predictive Analytics,73.59,32.95,19.68,17.13,23.06,39.4
+81,AIFirst,Manufacturing,2024,78.3,Customer Support,Autonomous Vehicles,83.97,42.3,23.43,21.26,22.8,45.32
+82,CloudPioneer,Biotechnology,2022,95.02,Inventory Management,Quantum Machine Learning,85.09,38.92,21.77,21.78,28.32,42.97
+83,HealthInnovate,Manufacturing,2024,80.81,Logistics,Robotics,78.42,44.1,23.88,19.56,23.85,43.15
+84,RoboWorks,Retail,2022,82.69,Financial Planning,Generative Models,56.46,28.16,13.68,11.24,19.58,27.47
+85,BioGen,Aerospace,2021,99.23,Human Resources,Computer Vision,101.74,55.35,29.41,30.46,28.26,64.65
+86,DataDynamics,Finance,2023,101.5,Financial Planning,Natural Language Processing,100.82,50.53,26.55,27.19,26.33,61.86
+87,TechCorp,Telecommunications,2021,90.29,Quality Control,Natural Language Processing,74.81,39.84,19.94,18.69,25.52,38.38
+88,CyberSecure,Telecommunications,2024,95.24,Logistics,Reinforcement Learning,86.85,39.92,26.1,23.77,23.12,43.98
+89,CleanEnergy,Telecommunications,2020,85.3,Inventory Management,Generative Models,69.27,36.66,19.69,20.36,18.71,39.71
+90,CyberSecure,Biotechnology,2020,94.75,Logistics,Natural Language Processing,76.39,38.41,19.5,18.03,26.14,35.82
+91,GreenMobility,Entertainment,2020,66.98,Human Resources,Generative Models,44.46,19.28,10.28,8.97,14.36,20.48
+92,QuantumLeap,Finance,2024,94.64,Human Resources,Expert Systems,65.78,33.83,17.56,19.11,18.95,39.52
+93,QuantumLeap,Education,2023,90.45,R&D,Generative Models,45.23,18.86,8.63,7.24,21.19,19.16
+94,CyberSecure,Healthcare,2024,97.86,Manufacturing,Predictive Analytics,71.07,34.44,16.9,16.83,22.18,38.23
+95,EnergyFuture,Biotechnology,2024,95.77,Marketing,Autonomous Vehicles,86.26,38.96,18.84,19.38,26.52,44.48
+96,AIFirst,Education,2022,82.69,Manufacturing,Speech Recognition,42.66,20.93,8.94,8.18,18.74,17.64
+97,RoboWorks,Agriculture,2024,69.29,Quality Control,Quantum Machine Learning,63.89,25.79,13.3,11.67,20.51,29.3
+98,AgroTech,Entertainment,2022,83.53,Manufacturing,Generative Models,53.06,21.64,11.18,10.4,17.74,22.68
+99,FintechFront,Healthcare,2024,96.61,Quality Control,Speech Recognition,64.61,32.7,17.88,17.12,19.75,36.39
+100,AIFirst,Real Estate,2020,49.55,Product Development,Quantum Machine Learning,39.8,16.72,7.63,6.12,16.18,16.43
+101,HealthInnovate,Information Technology,2021,84.89,Manufacturing,Predictive Analytics,80.64,43.32,25.74,23.91,21.93,47.79
+102,FintechFront,Agriculture,2020,48.29,Inventory Management,Generative Models,28.18,12.87,6.79,5.43,9.63,12.42
+103,DataDynamics,Aerospace,2022,98.55,Logistics,Expert Systems,66.55,30.26,19.19,18.0,18.36,41.77
+104,CleanEnergy,Finance,2024,95.0,Inventory Management,Generative Models,67.32,37.15,20.2,19.92,21.62,39.45
+105,EduTech,Healthcare,2020,76.1,Customer Support,Computer Vision,74.39,37.82,20.24,18.88,20.33,42.03
+106,HealthInnovate,Real Estate,2020,58.75,Product Development,Generative Models,30.49,13.88,6.65,5.27,12.39,12.32
+107,BioGen,Real Estate,2022,65.59,Quality Control,Autonomous Vehicles,41.9,19.55,9.21,8.42,16.89,16.86
+108,AIFirst,Finance,2020,75.58,Logistics,Robotics,79.13,38.55,20.21,16.5,23.76,42.31
+109,SmartRetail,Aerospace,2020,87.73,Product Development,Natural Language Processing,86.98,41.22,25.33,24.09,23.45,49.67
+110,RoboWorks,Biotechnology,2023,103.15,Financial Planning,Predictive Analytics,69.3,33.59,16.32,16.61,22.53,30.98
+111,CyberSecure,Information Technology,2021,96.33,Customer Support,Robotics,117.47,54.3,34.8,35.3,27.34,72.63
+112,RoboWorks,Manufacturing,2024,68.73,Marketing,Autonomous Vehicles,68.55,36.01,19.12,15.28,18.04,37.02
+113,BioGen,Finance,2021,74.55,Quality Control,Predictive Analytics,62.08,27.95,17.59,14.94,19.1,36.05
+114,QuantumLeap,Transportation,2022,84.16,Human Resources,Predictive Analytics,59.23,28.09,14.0,12.37,20.02,25.88
+115,CleanEnergy,Biotechnology,2024,95.73,Marketing,Robotics,79.19,39.86,18.59,19.49,31.0,37.45
+116,EnergyFuture,Aerospace,2024,98.9,Product Development,Reinforcement Learning,90.3,45.58,27.59,26.37,22.73,53.9
+117,QuantumLeap,Finance,2024,95.46,Human Resources,Generative Models,77.47,41.4,22.75,22.82,22.52,44.76
+118,GreenMobility,Manufacturing,2024,100.81,Financial Planning,Robotics,99.13,48.88,28.86,25.42,30.72,56.09
+119,GreenMobility,Education,2022,66.31,Logistics,Computer Vision,46.4,20.11,10.04,7.94,19.72,19.66
+120,HealthInnovate,Telecommunications,2021,107.31,Human Resources,Predictive Analytics,87.09,38.91,23.39,25.46,26.42,51.42
+121,HealthInnovate,Energy,2023,74.8,Human Resources,Speech Recognition,52.26,23.01,12.91,11.96,17.77,22.59
+122,TechCorp,Entertainment,2020,70.06,Marketing,Computer Vision,52.24,26.73,12.45,10.41,20.52,24.98
+123,EcoSolutions,Energy,2024,93.15,Marketing,Reinforcement Learning,73.03,34.81,17.73,14.92,20.65,33.57
+124,AgroTech,Retail,2020,66.5,Marketing,Quantum Machine Learning,69.43,33.83,18.25,16.9,19.57,35.91
+125,SmartRetail,Information Technology,2020,96.43,Manufacturing,Natural Language Processing,92.78,50.33,27.76,23.72,25.52,61.12
+126,AIFirst,Real Estate,2024,76.15,Marketing,Reinforcement Learning,48.82,23.63,9.91,8.53,20.05,18.56
+127,CyberSecure,Automotive,2020,69.46,R&D,Reinforcement Learning,53.37,27.44,14.92,12.08,15.05,29.58
+128,SmartRetail,Aerospace,2021,101.79,Logistics,Computer Vision,110.85,58.19,31.29,29.54,27.22,62.11
+129,FintechFront,Transportation,2021,73.95,Human Resources,Predictive Analytics,50.4,21.44,11.26,9.23,17.0,22.53
+130,CloudPioneer,Entertainment,2021,72.72,Inventory Management,Natural Language Processing,50.46,24.56,11.42,9.55,18.48,23.89
+131,TechCorp,Biotechnology,2023,103.6,Quality Control,Reinforcement Learning,80.06,35.02,20.24,21.08,23.86,41.55
+132,CyberSecure,Agriculture,2024,68.88,Logistics,Quantum Machine Learning,58.1,27.51,13.86,11.39,21.05,24.66
+133,CloudPioneer,Retail,2021,79.05,Customer Support,Speech Recognition,54.15,23.56,14.0,12.55,15.66,27.39
+134,CleanEnergy,Automotive,2023,100.49,Marketing,Speech Recognition,66.31,31.2,18.57,19.14,21.75,36.52
+135,EnergyFuture,Manufacturing,2020,60.93,R&D,Generative Models,45.71,21.17,11.99,10.61,12.2,26.62
+136,SmartRetail,Entertainment,2024,93.31,R&D,Generative Models,58.82,25.8,14.18,12.56,21.6,23.78
+137,GlobalFinance,Finance,2021,84.76,Inventory Management,Reinforcement Learning,77.4,38.23,19.6,18.86,21.44,42.79
+138,SpaceVentures,Manufacturing,2020,65.05,Manufacturing,Autonomous Vehicles,58.73,29.74,16.72,14.11,17.14,31.97
+139,EcoSolutions,Retail,2021,74.07,Manufacturing,Natural Language Processing,64.87,30.51,17.42,14.63,17.67,34.57
+140,CyberSecure,Telecommunications,2020,80.17,Inventory Management,Quantum Machine Learning,92.02,44.08,26.78,23.54,25.66,49.71
+141,EnergyFuture,Real Estate,2023,76.04,Logistics,Robotics,52.46,22.78,10.6,8.66,20.57,22.82
+142,SpaceVentures,Telecommunications,2024,99.17,Product Development,Robotics,102.72,44.55,26.14,27.54,32.05,62.5
+143,GreenMobility,Finance,2023,95.44,Financial Planning,Autonomous Vehicles,86.98,46.95,25.44,25.22,25.18,52.49
+144,CleanEnergy,Biotechnology,2024,107.93,Inventory Management,Natural Language Processing,78.49,34.55,18.82,19.64,27.04,35.98
+145,CleanEnergy,Retail,2024,98.97,Inventory Management,Quantum Machine Learning,109.35,52.43,25.92,25.63,33.82,59.75
+146,NanoTech,Biotechnology,2020,77.88,Financial Planning,Generative Models,51.22,24.54,11.97,12.02,18.06,24.04
+147,FintechFront,Entertainment,2023,100.56,Product Development,Expert Systems,54.63,25.45,12.08,11.29,21.02,25.62
+148,HealthInnovate,Education,2020,65.98,Manufacturing,Speech Recognition,36.15,15.98,7.68,6.22,13.38,13.73
+149,NanoTech,Education,2020,69.6,Quality Control,Expert Systems,31.58,13.24,6.53,5.5,14.39,11.67
+150,HealthInnovate,Telecommunications,2021,90.38,Customer Support,Computer Vision,80.66,37.54,20.54,19.4,23.01,44.98
+151,EnergyFuture,Entertainment,2024,94.82,Manufacturing,Autonomous Vehicles,76.63,32.93,16.5,15.45,25.59,36.24
+152,GlobalFinance,Real Estate,2022,70.48,Marketing,Reinforcement Learning,42.08,16.96,8.43,7.16,16.39,16.86
+153,EcoSolutions,Education,2020,62.81,Customer Support,Quantum Machine Learning,45.41,18.1,8.69,6.55,21.59,18.86
+154,SpaceVentures,Telecommunications,2024,95.02,Customer Support,Speech Recognition,74.71,35.13,20.1,20.65,21.91,39.17
+155,SpaceVentures,Entertainment,2024,97.48,Product Development,Robotics,87.72,40.1,21.12,19.65,27.98,40.52
+156,BioGen,Biotechnology,2024,105.37,Quality Control,Reinforcement Learning,76.9,34.31,19.04,17.6,24.81,35.05
+157,DataDynamics,Energy,2024,89.39,Inventory Management,Reinforcement Learning,58.3,28.47,13.54,11.19,21.81,30.74
+158,QuantumLeap,Telecommunications,2022,90.87,Human Resources,Quantum Machine Learning,107.88,53.37,30.87,28.84,30.02,60.75
+159,RoboWorks,Biotechnology,2024,99.08,Inventory Management,Quantum Machine Learning,99.61,49.02,22.7,21.98,30.15,50.94
+160,RoboWorks,Telecommunications,2021,109.19,Manufacturing,Computer Vision,102.53,50.79,30.92,33.34,31.99,62.37
+161,HealthInnovate,Retail,2020,68.21,Product Development,Quantum Machine Learning,76.55,35.06,20.53,15.89,21.85,43.35
+162,CyberSecure,Energy,2022,61.82,Inventory Management,Speech Recognition,44.42,22.35,11.55,8.95,13.29,21.6
+163,DataDynamics,Real Estate,2020,55.13,Inventory Management,Robotics,41.7,17.97,9.08,6.79,16.08,16.97
+164,HealthInnovate,Healthcare,2024,88.05,Marketing,Reinforcement Learning,64.03,32.82,17.09,18.13,19.08,32.25
+165,CloudPioneer,Finance,2024,102.24,Quality Control,Expert Systems,67.28,34.79,19.76,21.49,22.24,40.12
+166,GreenMobility,Manufacturing,2023,70.28,Quality Control,Computer Vision,66.08,35.47,19.11,17.05,20.04,35.14
+167,EduTech,Finance,2024,96.37,Quality Control,Speech Recognition,69.16,32.55,19.66,20.51,19.66,40.64
+168,SpaceVentures,Manufacturing,2024,86.87,Customer Support,Natural Language Processing,79.93,38.27,21.17,21.1,21.91,44.45
+169,SpaceVentures,Education,2020,74.01,Logistics,Predictive Analytics,43.95,18.79,9.31,7.26,18.18,18.86
+170,FintechFront,Aerospace,2023,108.36,Inventory Management,Autonomous Vehicles,107.9,53.21,32.99,34.91,33.34,61.57
+171,BioGen,Agriculture,2024,68.74,Logistics,Expert Systems,38.59,17.13,9.08,7.23,12.58,17.69
+172,EnergyFuture,Telecommunications,2023,100.51,Product Development,Natural Language Processing,99.47,53.76,28.71,28.73,23.74,50.76
+173,BioGen,Manufacturing,2023,87.62,R&D,Robotics,96.27,45.88,28.99,27.86,24.5,51.45
+174,HealthInnovate,Biotechnology,2024,96.21,Logistics,Natural Language Processing,69.09,29.03,15.17,15.31,26.34,31.19
+175,DataDynamics,Aerospace,2022,91.19,Financial Planning,Predictive Analytics,85.29,47.79,25.67,23.24,22.23,49.41
+176,SmartRetail,Energy,2021,57.02,Product Development,Reinforcement Learning,44.9,20.37,11.68,9.9,14.48,20.77
+177,BioGen,Manufacturing,2024,71.0,Human Resources,Robotics,77.48,40.35,20.8,18.46,21.99,42.98
+178,BioGen,Transportation,2021,66.95,Manufacturing,Robotics,63.4,25.91,13.73,12.29,20.56,31.03
+179,GreenMobility,Telecommunications,2020,83.2,Logistics,Autonomous Vehicles,83.84,40.59,24.23,21.6,25.29,46.26
+180,FintechFront,Real Estate,2023,69.71,Financial Planning,Quantum Machine Learning,61.26,28.07,12.93,11.05,20.68,23.3
+181,NanoTech,Manufacturing,2024,94.47,Quality Control,Robotics,105.99,51.8,27.52,27.78,27.78,56.24
+182,SmartRetail,Agriculture,2022,65.83,Manufacturing,Quantum Machine Learning,58.43,26.6,14.0,12.52,20.34,24.42
+183,QuantumLeap,Finance,2023,108.4,Inventory Management,Generative Models,89.12,47.72,27.22,25.16,23.64,45.37
+184,FintechFront,Manufacturing,2023,73.65,Logistics,Robotics,79.22,41.44,21.14,18.62,21.57,44.23
+185,TechCorp,Biotechnology,2020,86.92,Inventory Management,Predictive Analytics,56.92,28.53,12.91,12.09,19.68,24.92
+186,AgroTech,Entertainment,2020,67.2,Inventory Management,Quantum Machine Learning,59.85,25.63,14.23,11.28,20.13,26.47
+187,BioGen,Aerospace,2022,88.42,Quality Control,Generative Models,77.76,35.02,21.28,20.19,20.0,44.0
+188,AIFirst,Finance,2024,95.19,Customer Support,Computer Vision,91.18,48.66,27.52,28.72,28.21,50.67
+189,CloudPioneer,Manufacturing,2020,67.09,Inventory Management,Expert Systems,50.33,26.92,14.83,12.93,12.34,26.07
+190,GlobalFinance,Telecommunications,2020,82.69,Customer Support,Reinforcement Learning,69.6,32.04,19.33,17.82,20.02,41.36
+191,TechCorp,Biotechnology,2021,104.09,Human Resources,Speech Recognition,66.88,33.74,17.19,18.26,23.2,29.45
+192,QuantumLeap,Healthcare,2021,67.96,Quality Control,Expert Systems,48.22,21.77,13.56,12.15,13.38,25.29
+193,GreenMobility,Healthcare,2020,76.31,Financial Planning,Reinforcement Learning,57.28,26.95,13.67,11.74,19.28,26.94
+194,SmartRetail,Telecommunications,2022,105.39,Manufacturing,Predictive Analytics,90.86,41.43,25.26,27.49,27.31,52.76
+195,HealthInnovate,Education,2022,71.42,Logistics,Computer Vision,52.59,24.68,11.15,9.5,21.63,21.47
+196,TechCorp,Retail,2021,74.28,R&D,Predictive Analytics,61.91,32.16,17.37,14.32,16.18,30.32
+197,QuantumLeap,Energy,2024,75.53,Human Resources,Predictive Analytics,53.21,26.38,11.92,10.56,18.59,25.55
+198,RoboWorks,Agriculture,2024,64.59,Product Development,Quantum Machine Learning,55.4,26.56,12.43,11.34,19.67,25.83
+199,QuantumLeap,Biotechnology,2022,97.42,R&D,Natural Language Processing,81.78,36.37,19.27,17.53,23.9,35.51
+200,GreenMobility,Telecommunications,2020,89.19,Inventory Management,Computer Vision,89.99,48.63,27.2,27.37,25.41,55.04

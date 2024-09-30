@@ -1,0 +1,201 @@
+id,company,country,industry,year,ai_adoption_percentage,primary_ai_application,disruption_level,revenue_growth,cost_reduction,esg_score,primary_esg_impact,sustainable_growth_index,innovation_index,employee_satisfaction,market_share_change
+1,SpaceVentures,Sweden,Agriculture,2020,47.33,Predictive Maintenance,Low,3.55,23.26,88.23,Social Inclusion,0.64,75.67,99.45,1.11
+2,GreenMobility,India,Telecommunications,2023,99.35,Customer Service,Low,43.62,33.55,82.23,Biodiversity Protection,0.93,100,88.27,14.4
+3,AIFirst,China,Biotechnology,2023,107.47,Personalization,Low,44.53,32.37,118.2,Transparency,1.12,100,86.01,12.12
+4,GreenMobility,Brazil,Agriculture,2021,48.65,Autonomous Systems,High,54.23,15.99,65.22,Community Development,0.55,100,77.05,18.67
+5,DataDynamics,Italy,Finance,2020,65.87,Customer Service,Medium,22.14,18.33,97.48,Carbon Footprint Reduction,0.79,100,84.61,7.23
+6,CyberSecure,United States,Energy,2022,73.41,Fraud Detection,Medium,36.15,25.5,92.86,Employee Well-being,0.81,100,81.78,10.06
+7,EduTech,South Korea,Entertainment,2021,97.79,Fraud Detection,Revolutionary,19.67,13.7,92.13,Transparency,0.96,100,96.0,5.33
+8,EcoSolutions,Indonesia,Entertainment,2021,78.5,Fraud Detection,Medium,3.08,13.77,93.15,Social Inclusion,0.84,100,90.45,0.95
+9,QuantumLeap,Canada,Entertainment,2020,57.35,Content Creation,High,2.54,25.48,69.58,Waste Management,0.62,87.38,84.41,0.79
+10,GlobalFinance,Brazil,Energy,2023,65.77,Predictive Maintenance,High,18.4,17.27,62.58,Waste Management,0.64,100,95.73,5.1
+11,EduTech,United Kingdom,Transportation,2022,87.61,Fraud Detection,Medium,48.79,12.33,74.77,Carbon Footprint Reduction,0.82,100,88.36,13.56
+12,QuantumLeap,Singapore,Aerospace,2021,96.39,Personalization,Low,7.51,14.1,62.89,Carbon Footprint Reduction,0.83,100,91.85,2.29
+13,AgroTech,Netherlands,Aerospace,2021,74.43,Fraud Detection,Medium,45.43,11.8,79.52,Community Development,0.76,100,98.83,14.77
+14,DataDynamics,United States,Agriculture,2023,52.25,Process Optimization,Low,34.15,30.62,89.34,Employee Well-being,0.67,89.57,98.63,8.4
+15,EnergyFuture,United States,Entertainment,2024,81.68,Predictive Maintenance,Low,24.39,21.07,98.75,Social Inclusion,0.89,100,94.5,8.72
+16,AgroTech,United Kingdom,Telecommunications,2024,117.02,Drug Discovery,Medium,56.96,12.0,98.54,Carbon Footprint Reduction,1.1,100,90.47,17.35
+17,CyberSecure,Italy,Education,2021,60.76,Supply Chain Optimization,Medium,23.95,15.02,72.26,Water Conservation,0.65,84.02,81.33,6.85
+18,DataDynamics,Switzerland,Automotive,2023,118.98,Predictive Maintenance,Low,26.1,22.01,96.37,Waste Management,1.1,100,100,6.63
+19,AgroTech,United States,Agriculture,2020,48.69,Supply Chain Optimization,Medium,5.52,17.91,89.46,Waste Management,0.65,100,91.04,1.68
+20,AgroTech,Spain,Real Estate,2022,66.74,Process Optimization,Low,19.55,14.45,98.26,Community Development,0.79,87.83,88.69,6.22
+21,FintechFront,Sweden,Finance,2024,91.71,Autonomous Systems,Low,6.97,14.91,61.0,Social Inclusion,0.79,89.6,76.86,1.98
+22,RoboWorks,Indonesia,Finance,2021,102.08,Fraud Detection,Medium,6.55,23.98,78.47,Ethical Supply Chain,0.93,100,95.53,2.23
+23,CleanEnergy,Italy,Retail,2022,72.61,Predictive Maintenance,Low,1.36,20.3,86.9,Energy Efficiency,0.78,100,91.18,0.33
+24,HealthInnovate,Italy,Manufacturing,2021,76.59,Supply Chain Optimization,Medium,41.51,11.06,64.91,Ethical Supply Chain,0.72,100,87.77,10.87
+25,AgroTech,Italy,Entertainment,2023,105.4,Supply Chain Optimization,Medium,9.97,25.55,113.91,Energy Efficiency,1.09,100,97.08,3.16
+26,RoboWorks,Russia,Automotive,2023,105.06,Product Design,Low,38.49,26.94,119.79,Employee Well-being,1.11,100,100,13.57
+27,SmartRetail,China,Finance,2020,100.6,Supply Chain Optimization,High,47.64,41.73,75.51,Transparency,0.91,100,90.78,11.95
+28,DataDynamics,Sweden,Energy,2020,48.83,Customer Service,Low,24.99,15.43,80.97,Community Development,0.62,94.63,94.78,8.22
+29,RoboWorks,Indonesia,Education,2020,69.61,Personalization,Low,4.15,32.75,67.11,Water Conservation,0.69,100,93.55,1.36
+30,GreenMobility,Italy,Real Estate,2020,48.5,Product Design,Low,7.69,22.97,75.99,Carbon Footprint Reduction,0.59,100,94.49,2.01
+31,EduTech,France,Energy,2022,64.17,Drug Discovery,High,29.92,17.97,98.62,Energy Efficiency,0.78,100,90.17,8.65
+32,DataDynamics,India,Finance,2021,82.08,Autonomous Systems,High,15.11,25.19,111.18,Energy Efficiency,0.94,100,100,4.79
+33,BioGen,Mexico,Retail,2024,110.83,Fraud Detection,Medium,42.22,38.17,76.07,Social Inclusion,0.97,100,77.01,12.9
+34,EduTech,Spain,Education,2022,71.67,Customer Service,Medium,48.88,23.94,90.3,Transparency,0.79,100,93.33,15.87
+35,EduTech,United States,Healthcare,2024,94.81,Autonomous Systems,Low,39.33,32.12,115.32,Social Inclusion,1.03,100,100,10.32
+36,GlobalFinance,Italy,Aerospace,2021,86.8,Customer Service,Low,13.59,14.9,97.75,Energy Efficiency,0.91,100,100,3.72
+37,FintechFront,United States,Education,2021,64.91,Product Design,High,47.69,17.88,106.18,Biodiversity Protection,0.81,100,92.66,13.13
+38,SmartRetail,United Kingdom,Entertainment,2023,105.36,Product Design,Medium,2.65,8.14,95.42,Energy Efficiency,1.01,100,89.03,0.88
+39,HealthInnovate,Germany,Manufacturing,2023,63.7,Supply Chain Optimization,Low,25.98,16.58,101.52,Transparency,0.79,100,100,6.88
+40,RoboWorks,Russia,Agriculture,2022,53.76,Personalization,Medium,27.79,22.22,79.51,Community Development,0.64,89.37,93.09,7.14
+41,EnergyFuture,South Korea,Aerospace,2024,118.28,Process Optimization,Low,31.97,33.91,64.92,Water Conservation,0.97,100,96.43,8.37
+42,FintechFront,Sweden,Entertainment,2024,101.67,Autonomous Systems,Medium,43.86,43.54,76.17,Carbon Footprint Reduction,0.91,100,88.99,12.39
+43,SpaceVentures,Spain,Education,2022,68.85,Fraud Detection,Medium,20.55,12.79,88.79,Energy Efficiency,0.77,100,80.97,5.61
+44,RoboWorks,China,Retail,2023,79.85,Drug Discovery,Medium,20.21,23.83,81.53,Carbon Footprint Reduction,0.81,100,86.28,5.01
+45,TechCorp,France,Telecommunications,2023,82.52,Customer Service,Revolutionary,65.25,8.36,67.51,Biodiversity Protection,0.77,100,75.3,16.54
+46,EcoSolutions,Mexico,Education,2023,74.96,Personalization,High,44.95,10.92,77.29,Transparency,0.76,100,92.3,12.88
+47,EnergyFuture,Italy,Healthcare,2023,85.08,Customer Service,Low,33.94,21.07,109.64,Energy Efficiency,0.95,100,100,8.98
+48,NanoTech,France,Real Estate,2023,67.52,Personalization,Medium,32.36,29.14,102.39,Waste Management,0.81,100,83.24,10.2
+49,BioGen,Brazil,Retail,2024,115.53,Drug Discovery,High,25.82,29.23,83.31,Ethical Supply Chain,1.03,100,100,6.88
+50,NanoTech,Mexico,Retail,2020,64.07,Process Optimization,Medium,3.22,14.95,74.09,Biodiversity Protection,0.68,100,89.61,0.87
+51,TechCorp,Australia,Transportation,2022,74.51,Fraud Detection,High,54.75,6.88,74.44,Carbon Footprint Reduction,0.74,100,78.74,18.25
+52,AIFirst,Spain,Manufacturing,2021,73.79,Customer Service,Low,17.75,26.52,77.37,Community Development,0.75,100,86.14,5.89
+53,SmartRetail,Russia,Energy,2020,54.7,Process Optimization,High,13.0,23.42,91.2,Ethical Supply Chain,0.69,87.64,86.01,4.01
+54,FintechFront,Mexico,Entertainment,2021,67.59,Content Creation,High,12.42,27.25,99.99,Ethical Supply Chain,0.81,100,95.54,3.57
+55,RoboWorks,Canada,Healthcare,2023,99.36,Product Design,High,38.09,14.89,67.43,Social Inclusion,0.87,100,97.84,9.37
+56,DataDynamics,Italy,Aerospace,2023,92.88,Process Optimization,Medium,33.69,20.37,118.53,Ethical Supply Chain,1.03,99.1,89.81,9.28
+57,SmartRetail,Netherlands,Energy,2023,65.51,Fraud Detection,Medium,11.49,17.52,90.81,Social Inclusion,0.76,100,96.11,3.99
+58,SmartRetail,Spain,Biotechnology,2022,98.71,Supply Chain Optimization,Revolutionary,33.05,24.56,95.69,Carbon Footprint Reduction,0.98,95.69,82.34,11.37
+59,TechCorp,Germany,Retail,2020,63.38,Supply Chain Optimization,Low,8.47,30.91,87.89,Community Development,0.73,100,99.12,2.83
+60,CloudPioneer,Canada,Entertainment,2022,77.62,Customer Service,Low,31.38,32.05,99.22,Employee Well-being,0.86,93.54,94.17,7.53
+61,EcoSolutions,Singapore,Energy,2023,68.61,Fraud Detection,Low,15.83,26.98,59.54,Carbon Footprint Reduction,0.65,87.95,72.09,4.69
+62,FintechFront,Canada,Education,2021,66.94,Drug Discovery,Medium,37.66,32.54,61.23,Social Inclusion,0.65,100,85.92,13.36
+63,EnergyFuture,Canada,Finance,2020,75.74,Autonomous Systems,Low,19.3,30.02,84.71,Social Inclusion,0.79,83.35,100,6.88
+64,CloudPioneer,India,Healthcare,2022,74.48,Autonomous Systems,Low,18.7,15.65,89.74,Biodiversity Protection,0.81,100,89.0,4.81
+65,BioGen,India,Information Technology,2023,89.66,Predictive Maintenance,Revolutionary,33.13,16.19,82.54,Carbon Footprint Reduction,0.87,100,84.94,11.71
+66,AgroTech,United Kingdom,Entertainment,2024,93.04,Customer Service,Medium,30.05,40.35,75.74,Waste Management,0.86,100,81.56,10.52
+67,NanoTech,Japan,Retail,2024,86.95,Supply Chain Optimization,High,43.36,12.12,91.18,Waste Management,0.89,100,92.98,15.4
+68,QuantumLeap,Singapore,Healthcare,2024,98.59,Personalization,Low,28.37,13.44,100.21,Transparency,0.99,100,92.07,7.25
+69,EcoSolutions,Spain,Agriculture,2020,41.18,Customer Service,Medium,16.58,25.75,93.56,Carbon Footprint Reduction,0.62,100,100,4.22
+70,EcoSolutions,Netherlands,Automotive,2024,91.91,Process Optimization,High,16.77,30.69,96.91,Waste Management,0.94,100,83.52,5.58
+71,TechCorp,Netherlands,Automotive,2022,91.55,Customer Service,Low,36.74,32.92,98.42,Waste Management,0.94,100,99.56,9.02
+72,GreenMobility,Italy,Transportation,2023,92.74,Personalization,High,14.79,41.65,89.64,Ethical Supply Chain,0.92,94.15,99.04,3.79
+73,BioGen,Singapore,Entertainment,2022,82.54,Product Design,Medium,13.88,32.98,77.99,Waste Management,0.81,99.48,81.49,4.3
+74,HealthInnovate,United States,Entertainment,2024,99.8,Process Optimization,Revolutionary,43.04,16.43,65.31,Carbon Footprint Reduction,0.86,100,83.79,11.38
+75,EduTech,Indonesia,Retail,2024,112.21,Drug Discovery,Medium,14.13,18.64,99.57,Biodiversity Protection,1.07,100,93.33,3.91
+76,EcoSolutions,France,Manufacturing,2021,70.09,Drug Discovery,Low,29.1,32.28,107.25,Community Development,0.85,86.54,81.97,8.82
+77,RoboWorks,Australia,Manufacturing,2021,75.17,Predictive Maintenance,Medium,47.1,29.48,102.61,Ethical Supply Chain,0.86,92.15,87.27,12.33
+78,CloudPioneer,Italy,Transportation,2021,80.14,Content Creation,Medium,15.12,14.8,89.99,Employee Well-being,0.84,100,84.33,5.22
+79,TechCorp,Italy,Automotive,2023,118.85,Process Optimization,Low,43.12,14.65,104.9,Transparency,1.13,100,92.87,11.68
+80,CloudPioneer,Australia,Telecommunications,2021,81.95,Autonomous Systems,Medium,30.23,26.64,57.75,Community Development,0.72,100,81.8,9.31
+81,AIFirst,Japan,Manufacturing,2024,87.54,Content Creation,Medium,30.23,25.82,85.86,Ethical Supply Chain,0.87,94.93,98.89,10.1
+82,CloudPioneer,South Korea,Biotechnology,2022,101.67,Content Creation,Low,33.0,26.1,67.13,Water Conservation,0.88,100,88.18,11.67
+83,HealthInnovate,India,Manufacturing,2024,70.56,Product Design,High,55.75,20.09,99.83,Community Development,0.82,100,98.98,14.38
+84,RoboWorks,China,Retail,2022,65.82,Product Design,Revolutionary,17.03,8.62,80.61,Social Inclusion,0.72,100,100,5.46
+85,BioGen,Singapore,Aerospace,2021,75.83,Drug Discovery,Medium,8.29,10.13,82.47,Biodiversity Protection,0.78,88.97,85.55,2.18
+86,DataDynamics,Spain,Finance,2023,94.01,Fraud Detection,Low,36.93,20.6,81.32,Waste Management,0.89,100,94.48,11.11
+87,TechCorp,United States,Telecommunications,2021,82.71,Personalization,Medium,21.13,37.35,95.05,Biodiversity Protection,0.88,100,100,5.37
+88,CyberSecure,Italy,Telecommunications,2024,81.23,Product Design,Medium,27.3,35.82,63.3,Waste Management,0.74,100,77.53,8.25
+89,CleanEnergy,China,Telecommunications,2020,107.57,Customer Service,Medium,24.1,37.25,61.31,Transparency,0.89,100,92.63,6.37
+90,CyberSecure,Sweden,Biotechnology,2020,72.31,Supply Chain Optimization,High,15.63,28.34,84.72,Carbon Footprint Reduction,0.77,100,96.36,4.59
+91,GreenMobility,Singapore,Entertainment,2020,79.63,Customer Service,Medium,2.67,16.42,92.15,Biodiversity Protection,0.85,100,100,0.92
+92,QuantumLeap,Germany,Finance,2024,84.22,Process Optimization,Low,15.37,15.23,85.51,Employee Well-being,0.85,99.62,84.08,5.26
+93,QuantumLeap,Mexico,Education,2023,74.15,Process Optimization,High,42.61,35.21,63.95,Water Conservation,0.7,100,94.01,15.3
+94,CyberSecure,Mexico,Healthcare,2024,110.32,Predictive Maintenance,High,65.22,38.46,65.2,Social Inclusion,0.92,100,90.09,18.99
+95,EnergyFuture,Netherlands,Biotechnology,2024,94.02,Personalization,Medium,13.84,11.74,66.89,Waste Management,0.83,100,94.6,3.96
+96,AIFirst,Italy,Education,2022,71.88,Process Optimization,Medium,29.86,22.98,64.15,Carbon Footprint Reduction,0.69,84.81,97.24,9.64
+97,RoboWorks,Australia,Agriculture,2024,74.98,Process Optimization,Medium,38.68,16.09,69.33,Transparency,0.73,100,92.17,11.22
+98,AgroTech,Australia,Entertainment,2022,78.7,Customer Service,Revolutionary,82.56,11.68,97.67,Biodiversity Protection,0.86,100,87.27,28.43
+99,FintechFront,Germany,Healthcare,2024,85.96,Customer Service,High,3.18,24.88,103.3,Employee Well-being,0.93,100,91.32,1.1
+100,AIFirst,France,Real Estate,2020,50.13,Customer Service,Medium,16.78,19.39,58.55,Biodiversity Protection,0.53,100,86.35,5.57
+101,HealthInnovate,Spain,Information Technology,2021,74.1,Drug Discovery,High,0.37,20.62,111.09,Ethical Supply Chain,0.89,100,88.9,0.13
+102,FintechFront,South Korea,Agriculture,2020,54.25,Customer Service,High,5.85,34.62,52.54,Transparency,0.54,83.76,92.27,1.87
+103,DataDynamics,Russia,Aerospace,2022,119.46,Fraud Detection,Revolutionary,41.02,35.18,102.24,Community Development,1.13,100,100,10.44
+104,CleanEnergy,Germany,Finance,2024,116.77,Supply Chain Optimization,High,4.66,10.95,114.88,Employee Well-being,1.16,100,84.7,1.45
+105,EduTech,Russia,Healthcare,2020,71.27,Supply Chain Optimization,Revolutionary,55.21,22.7,56.3,Ethical Supply Chain,0.65,100,93.77,14.77
+106,HealthInnovate,Netherlands,Real Estate,2020,46.49,Customer Service,Low,19.04,19.26,96.98,Community Development,0.67,100,96.83,4.71
+107,BioGen,Indonesia,Real Estate,2022,58.47,Drug Discovery,Medium,34.32,30.54,88.02,Waste Management,0.7,100,79.48,8.8
+108,AIFirst,Switzerland,Finance,2020,68.55,Process Optimization,High,8.47,29.05,63.4,Energy Efficiency,0.66,100,81.57,2.34
+109,SmartRetail,South Korea,Aerospace,2020,75.61,Drug Discovery,Low,29.8,12.7,101.07,Employee Well-being,0.86,100,86.71,8.76
+110,RoboWorks,Japan,Biotechnology,2023,90.01,Autonomous Systems,Low,27.91,20.97,98.26,Biodiversity Protection,0.93,100,100,9.89
+111,CyberSecure,Netherlands,Information Technology,2021,100.3,Predictive Maintenance,Low,43.83,17.05,114.27,Water Conservation,1.06,100,100,11.13
+112,RoboWorks,United States,Manufacturing,2024,61.63,Drug Discovery,Low,32.73,12.59,88.66,Water Conservation,0.72,100,96.98,8.3
+113,BioGen,Germany,Finance,2021,93.26,Fraud Detection,High,56.59,32.92,64.79,Biodiversity Protection,0.82,92.24,93.35,18.1
+114,QuantumLeap,Italy,Transportation,2022,98.04,Content Creation,Low,20.01,25.51,80.43,Water Conservation,0.91,92.68,83.6,5.17
+115,CleanEnergy,Switzerland,Biotechnology,2024,92.78,Fraud Detection,Low,10.87,21.45,67.82,Community Development,0.83,100,100,3.22
+116,EnergyFuture,Canada,Aerospace,2024,112.83,Drug Discovery,Medium,14.7,11.88,97.15,Social Inclusion,1.07,100,81.3,3.6
+117,QuantumLeap,United Kingdom,Finance,2024,93.45,Personalization,Low,18.07,42.72,96.23,Transparency,0.95,100,99.02,6.33
+118,GreenMobility,United States,Manufacturing,2024,82.05,Fraud Detection,Medium,40.21,26.91,74.21,Ethical Supply Chain,0.79,100,100,13.87
+119,GreenMobility,Germany,Education,2022,66.15,Autonomous Systems,High,37.82,7.12,86.61,Energy Efficiency,0.74,100,98.3,13.51
+120,HealthInnovate,Switzerland,Telecommunications,2021,96.52,Fraud Detection,Revolutionary,46.57,28.28,97.96,Employee Well-being,0.97,95.8,92.96,11.76
+121,HealthInnovate,Switzerland,Energy,2023,85.78,Predictive Maintenance,Medium,2.21,9.59,109.92,Community Development,0.95,100,100,0.7
+122,TechCorp,Indonesia,Entertainment,2020,72.04,Content Creation,High,47.1,18.91,105.18,Social Inclusion,0.85,100,96.39,15.77
+123,EcoSolutions,India,Energy,2024,92.16,Content Creation,Medium,14.73,35.15,96.36,Social Inclusion,0.94,100,87.8,4.96
+124,AgroTech,Singapore,Retail,2020,65.37,Personalization,Low,23.75,22.79,60.34,Water Conservation,0.63,86.78,86.32,7.02
+125,SmartRetail,Mexico,Information Technology,2020,95.02,Product Design,Low,0.05,34.26,68.97,Energy Efficiency,0.85,100,77.25,0.01
+126,AIFirst,France,Real Estate,2024,91.42,Predictive Maintenance,Low,35.1,25.33,55.66,Transparency,0.77,96.0,98.71,9.35
+127,CyberSecure,Switzerland,Automotive,2020,87.44,Product Design,High,19.98,9.28,54.91,Community Development,0.74,100,96.59,7.11
+128,SmartRetail,Canada,Aerospace,2021,79.38,Predictive Maintenance,Medium,36.0,36.68,99.74,Carbon Footprint Reduction,0.88,98.7,97.1,10.31
+129,FintechFront,Brazil,Transportation,2021,68.6,Process Optimization,Low,20.72,18.69,105.48,Waste Management,0.83,90.9,100,7.45
+130,CloudPioneer,United States,Entertainment,2021,68.89,Customer Service,Medium,23.59,24.03,106.69,Water Conservation,0.84,91.92,100,8.01
+131,TechCorp,India,Biotechnology,2023,97.43,Supply Chain Optimization,Medium,4.05,25.56,68.12,Biodiversity Protection,0.86,99.82,89.89,1.45
+132,CyberSecure,Mexico,Agriculture,2024,81.62,Supply Chain Optimization,Low,17.68,33.53,55.48,Carbon Footprint Reduction,0.71,100,71.79,4.85
+133,CloudPioneer,France,Retail,2021,77.18,Content Creation,Medium,25.62,29.6,75.05,Waste Management,0.76,100,83.01,9.08
+134,CleanEnergy,France,Automotive,2023,95.0,Fraud Detection,Low,13.26,15.82,86.72,Ethical Supply Chain,0.92,100,85.62,4.02
+135,EnergyFuture,Indonesia,Manufacturing,2020,71.97,Content Creation,Low,35.55,27.62,80.53,Ethical Supply Chain,0.75,85.11,100,9.41
+136,SmartRetail,United States,Entertainment,2024,89.44,Fraud Detection,Low,8.93,25.05,70.04,Carbon Footprint Reduction,0.82,98.26,83.36,2.98
+137,GlobalFinance,Germany,Finance,2021,79.65,Process Optimization,Low,31.22,33.14,78.55,Ethical Supply Chain,0.79,97.01,98.19,9.33
+138,SpaceVentures,Singapore,Manufacturing,2020,62.0,Fraud Detection,High,20.91,31.77,100.15,Ethical Supply Chain,0.77,97.99,87.68,5.27
+139,EcoSolutions,South Korea,Retail,2021,67.09,Personalization,Revolutionary,46.43,8.2,82.01,Social Inclusion,0.73,98.64,100,14.22
+140,CyberSecure,Mexico,Telecommunications,2020,76.83,Supply Chain Optimization,Medium,40.72,21.77,77.02,Social Inclusion,0.77,85.28,98.97,9.89
+141,EnergyFuture,Singapore,Real Estate,2023,76.04,Drug Discovery,Medium,17.42,11.65,107.79,Water Conservation,0.89,100,100,5.85
+142,SpaceVentures,Germany,Telecommunications,2024,114.31,Drug Discovery,Medium,19.16,32.1,68.51,Social Inclusion,0.96,97.73,83.61,5.19
+143,GreenMobility,Switzerland,Finance,2023,94.49,Fraud Detection,Medium,18.53,12.68,102.67,Transparency,0.98,88.47,100,6.12
+144,CleanEnergy,Indonesia,Biotechnology,2024,98.41,Drug Discovery,High,58.93,29.33,78.98,Ethical Supply Chain,0.91,100,91.39,19.54
+145,CleanEnergy,South Korea,Retail,2024,91.0,Drug Discovery,Medium,43.6,20.68,82.18,Social Inclusion,0.87,100,97.06,11.48
+146,NanoTech,Canada,Biotechnology,2020,70.53,Autonomous Systems,High,25.75,24.84,82.32,Ethical Supply Chain,0.75,86.57,96.88,7.55
+147,FintechFront,Singapore,Entertainment,2023,85.23,Predictive Maintenance,Medium,45.15,16.2,65.59,Social Inclusion,0.77,95.02,88.5,11.93
+148,HealthInnovate,Spain,Education,2020,81.19,Process Optimization,Medium,9.23,25.13,60.1,Community Development,0.73,94.58,93.12,2.8
+149,NanoTech,China,Education,2020,74.24,Drug Discovery,Revolutionary,57.85,41.17,93.11,Employee Well-being,0.82,100,90.36,17.89
+150,HealthInnovate,Sweden,Telecommunications,2021,81.87,Fraud Detection,Medium,6.67,19.61,62.74,Water Conservation,0.74,100,87.22,1.93
+151,EnergyFuture,Brazil,Entertainment,2024,80.78,Customer Service,Low,24.77,12.29,92.72,Waste Management,0.86,92.89,100,6.04
+152,GlobalFinance,Mexico,Real Estate,2022,76.06,Predictive Maintenance,Medium,12.78,14.03,67.66,Carbon Footprint Reduction,0.73,86.87,75.19,3.21
+153,EcoSolutions,Singapore,Education,2020,56.91,Personalization,High,39.67,12.91,57.3,Waste Management,0.57,100,90.45,12.66
+154,SpaceVentures,Canada,Telecommunications,2024,100.33,Personalization,Medium,25.53,41.36,65.45,Water Conservation,0.86,96.27,91.01,8.6
+155,SpaceVentures,Italy,Entertainment,2024,101.88,Supply Chain Optimization,High,45.83,36.74,70.49,Employee Well-being,0.89,100,100,13.87
+156,BioGen,Germany,Biotechnology,2024,81.15,Customer Service,High,57.45,22.07,110.8,Ethical Supply Chain,0.93,89.57,100,16.39
+157,DataDynamics,Sweden,Energy,2024,73.52,Customer Service,High,51.93,18.43,56.64,Carbon Footprint Reduction,0.67,100,96.32,16.29
+158,QuantumLeap,Australia,Telecommunications,2022,111.29,Drug Discovery,High,60.11,14.8,75.28,Biodiversity Protection,0.97,100,83.08,19.08
+159,RoboWorks,Indonesia,Biotechnology,2024,90.67,Autonomous Systems,Medium,35.0,28.54,67.78,Biodiversity Protection,0.82,96.28,85.83,10.63
+160,RoboWorks,United States,Telecommunications,2021,82.77,Predictive Maintenance,Medium,36.63,10.92,117.72,Ethical Supply Chain,0.97,98.89,84.67,10.17
+161,HealthInnovate,France,Retail,2020,64.7,Drug Discovery,Low,26.85,23.07,63.64,Carbon Footprint Reduction,0.64,83.67,86.95,7.06
+162,CyberSecure,Russia,Energy,2022,65.51,Fraud Detection,Low,1.08,12.52,91.64,Biodiversity Protection,0.76,95.74,100,0.36
+163,DataDynamics,China,Real Estate,2020,48.01,Supply Chain Optimization,Medium,5.58,22.31,81.74,Carbon Footprint Reduction,0.62,75.77,100,1.61
+164,HealthInnovate,France,Healthcare,2024,83.11,Personalization,Revolutionary,73.46,14.76,113.01,Waste Management,0.95,100,82.88,19.33
+165,CloudPioneer,Mexico,Finance,2024,118.06,Customer Service,High,36.1,47.83,105.89,Transparency,1.13,100,98.25,9.38
+166,GreenMobility,Singapore,Manufacturing,2023,67.47,Predictive Maintenance,Low,22.99,10.14,82.41,Carbon Footprint Reduction,0.73,83.39,83.47,5.56
+167,EduTech,Germany,Finance,2024,88.18,Personalization,Revolutionary,51.87,38.55,108.68,Energy Efficiency,0.96,100,86.63,12.74
+168,SpaceVentures,Mexico,Manufacturing,2024,85.52,Content Creation,Medium,3.78,25.11,75.51,Carbon Footprint Reduction,0.82,100,94.19,1.18
+169,SpaceVentures,Mexico,Education,2020,78.21,Drug Discovery,High,55.99,22.1,75.86,Ethical Supply Chain,0.77,100,91.24,13.63
+170,FintechFront,France,Aerospace,2023,109.41,Autonomous Systems,Medium,0.66,11.23,109.76,Waste Management,1.1,100,96.42,0.2
+171,BioGen,Australia,Agriculture,2024,68.88,Fraud Detection,Revolutionary,8.14,14.74,54.76,Waste Management,0.63,100,89.74,2.91
+172,EnergyFuture,Mexico,Telecommunications,2023,90.98,Customer Service,High,20.29,33.46,68.85,Employee Well-being,0.82,100,100,5.14
+173,BioGen,Japan,Manufacturing,2023,94.89,Personalization,Medium,36.11,23.02,70.48,Waste Management,0.85,100,89.95,12.14
+174,HealthInnovate,Indonesia,Biotechnology,2024,80.05,Process Optimization,Low,11.04,24.7,75.11,Waste Management,0.78,100,93.84,2.98
+175,DataDynamics,Spain,Aerospace,2022,109.8,Supply Chain Optimization,Low,27.74,19.1,119.85,Social Inclusion,1.14,100,90.35,7.57
+176,SmartRetail,South Korea,Energy,2021,52.73,Fraud Detection,Low,10.63,16.01,62.41,Social Inclusion,0.57,83.59,93.56,3.68
+177,BioGen,Switzerland,Manufacturing,2024,69.7,Drug Discovery,Medium,27.67,26.83,70.96,Water Conservation,0.7,92.56,75.04,7.28
+178,BioGen,Russia,Transportation,2021,84.05,Fraud Detection,High,35.31,21.77,83.64,Water Conservation,0.84,100,85.8,9.74
+179,GreenMobility,United States,Telecommunications,2020,107.08,Predictive Maintenance,Medium,3.45,46.2,88.97,Carbon Footprint Reduction,1.0,100,100,1.17
+180,FintechFront,Spain,Real Estate,2023,67.91,Personalization,High,34.11,25.06,94.56,Ethical Supply Chain,0.79,100,100,8.53
+181,NanoTech,Russia,Manufacturing,2024,103.2,Drug Discovery,Medium,6.01,23.56,113.59,Water Conservation,1.07,100,96.83,1.79
+182,SmartRetail,Switzerland,Agriculture,2022,66.88,Supply Chain Optimization,Medium,25.14,30.7,79.6,Biodiversity Protection,0.72,97.27,88.97,6.42
+183,QuantumLeap,Mexico,Finance,2023,90.18,Drug Discovery,Medium,37.41,25.25,85.76,Ethical Supply Chain,0.88,95.56,91.88,10.9
+184,FintechFront,Sweden,Manufacturing,2023,63.7,Personalization,Low,37.24,21.63,68.66,Employee Well-being,0.66,100,100,11.27
+185,TechCorp,Mexico,Biotechnology,2020,87.63,Customer Service,Low,0.72,21.73,71.92,Energy Efficiency,0.81,100,80.88,0.23
+186,AgroTech,Indonesia,Entertainment,2020,69.46,Content Creation,High,16.95,26.54,103.24,Ethical Supply Chain,0.83,100,100,5.53
+187,BioGen,China,Aerospace,2022,77.3,Customer Service,High,31.4,12.2,111.9,Energy Efficiency,0.91,100,100,11.19
+188,AIFirst,Japan,Finance,2024,100.32,Product Design,Low,15.42,31.3,84.39,Water Conservation,0.94,92.58,89.54,4.31
+189,CloudPioneer,Singapore,Manufacturing,2020,64.33,Personalization,High,3.55,15.8,74.59,Water Conservation,0.68,83.73,96.03,1.27
+190,GlobalFinance,Germany,Telecommunications,2020,104.2,Process Optimization,Low,3.69,14.83,85.22,Water Conservation,0.97,100,97.56,1.08
+191,TechCorp,France,Biotechnology,2021,77.86,Customer Service,Low,1.25,17.22,83.06,Transparency,0.8,100,80.37,0.44
+192,QuantumLeap,Switzerland,Healthcare,2021,73.79,Supply Chain Optimization,Medium,26.68,23.24,85.39,Ethical Supply Chain,0.78,100,100,9.38
+193,GreenMobility,Switzerland,Healthcare,2020,81.63,Personalization,Low,26.47,25.62,81.95,Carbon Footprint Reduction,0.82,100,100,6.46
+194,SmartRetail,Australia,Telecommunications,2022,112.36,Predictive Maintenance,Low,5.11,32.9,60.26,Energy Efficiency,0.92,100,80.2,1.54
+195,HealthInnovate,Germany,Education,2022,70.63,Personalization,Low,14.32,15.75,87.36,Transparency,0.77,100,100,4.06
+196,TechCorp,Netherlands,Retail,2021,70.69,Predictive Maintenance,High,37.97,19.9,83.26,Community Development,0.76,100,78.49,9.8
+197,QuantumLeap,India,Energy,2024,74.85,Fraud Detection,Medium,31.71,23.3,87.73,Employee Well-being,0.8,100,88.3,11.11
+198,RoboWorks,Russia,Agriculture,2024,59.64,Personalization,Medium,18.47,11.13,99.31,Employee Well-being,0.76,100,83.25,6.01
+199,QuantumLeap,Australia,Biotechnology,2022,81.31,Drug Discovery,Low,3.4,25.88,88.48,Ethical Supply Chain,0.84,100,93.43,0.96
+200,GreenMobility,Switzerland,Telecommunications,2020,92.33,Process Optimization,Medium,42.96,25.23,59.06,Waste Management,0.79,100,76.09,11.62

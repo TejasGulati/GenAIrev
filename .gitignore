@@ -42,8 +42,7 @@ venv.*
 Thumbs.db
 Desktop.ini
 
-# CSV files (if you want to exclude all CSV files)
-*.csv
+
 
 # Model files
 *.h5
