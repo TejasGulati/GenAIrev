@@ -126,7 +126,11 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', '').split(',')
-
+CORS_ALLOW_ALL_ORIGINS = True  # For development only
+CORS_ALLOWED_ORIGINS = [
+    "https://genairev.onrender.com",
+    "http://localhost:3000",  # If you're testing locally
+]
 AUTH_USER_MODEL = 'users.User'
 
 # Ensure logs directory exists
