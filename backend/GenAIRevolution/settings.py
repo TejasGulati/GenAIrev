@@ -178,7 +178,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['https://ecopulse-jswp.onrender.com/', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','ecopulse-jswp.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
