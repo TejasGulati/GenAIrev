@@ -33,12 +33,14 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'rest_framework_simplejwt.token_blacklist',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -51,7 +53,7 @@ ROOT_URLCONF = 'GenAIRevolution.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'staticfiles')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -96,6 +98,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend')  # Adjust this path as needed
 
@@ -131,7 +134,6 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', '').split(',')
 CORS_ALLOW_ALL_ORIGINS = True  # For development only
 CORS_ALLOWED_ORIGINS = [
     "https://genairev.onrender.com",

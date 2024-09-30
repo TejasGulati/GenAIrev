@@ -1,27 +1,18 @@
+# backend/GenAIRevolution/urls.py
+
 from django.contrib import admin
 from django.urls import path, include, re_path
+from django.views.generic import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
-from django.views.generic import TemplateView
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework.reverse import reverse
-
-@api_view(['GET'])
-def api_root(request, format=None):
-    return Response({
-        'users': reverse('login', request=request, format=format),
-        'ai_models': reverse('sustainability_report', request=request, format=format),
-        # Add other API endpoints here as needed
-    })
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', api_root, name='api-root'),
-    path('api/ai_models/', include('ai_models.urls')),
+    path('api/', include('ai_models.urls')),
     path('api/users/', include('users.urls')),
-    # Serve React App
-    re_path(r'^(?!api/).*', TemplateView.as_view(template_name='index.html'), name='react-app'),
+    
+    # This catch-all pattern will let React Router handle all other routes
+    re_path(r'^.*', TemplateView.as_view(template_name='index.html')),
 ]
 
 if settings.DEBUG:
