@@ -3,7 +3,7 @@
 set -o errexit
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 
 # Install frontend dependencies
 cd frontend/ai-business-solutions
