@@ -1,8 +1,8 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 from django.conf import settings
 from django.conf.urls.static import static
-from django.views.generic import RedirectView
+from django.views.generic import TemplateView
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
@@ -20,7 +20,8 @@ urlpatterns = [
     path('api/', api_root, name='api-root'),
     path('api/ai_models/', include('ai_models.urls')),
     path('api/users/', include('users.urls')),
-    path('', RedirectView.as_view(url='/api/', permanent=False)),
+    # Serve React App
+    re_path(r'^(?!api/).*', TemplateView.as_view(template_name='index.html'), name='react-app'),
 ]
 
 if settings.DEBUG:
